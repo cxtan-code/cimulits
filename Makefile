@@ -1,10 +1,11 @@
 CROSS   := mips-linux-gnu-
-CFLAGS  := -Iinclude -Wall -O2 -mips32r2
-LIBS 	:= -L ../jpg_api/ -ljpeg
+CFLAGS  := -Iinclude -Wall -O2 -mips32r2 -mmxu
+LIBS 	:= -L. -ljpeg-hw -L../external/libjpeg-turbo/.libs  -ljpeg
 
 OBJS := main.o		\
 	misc.o		\
 	signal.o	\
+	convert_soft.o \
 	raw/saveraw.o	\
 	bmp/savebmp.o	\
 	jpg/savejpeg.o	\
