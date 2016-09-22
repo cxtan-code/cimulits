@@ -1,0 +1,1382 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Adobe_transform	include/jpeglib.h	/^  UINT8 Adobe_transform;	\/* Color transform code from Adobe marker *\/$/;"	m	struct:jpeg_decompress_struct
+Ah	include/jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon10
+Ah	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Ah	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+Al	include/jpeglib.h	/^  int Ah, Al;			\/* progressive JPEG successive approx. parms *\/$/;"	m	struct:__anon10
+Al	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Al	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+BAYER_BGGR	include/format.h	162;"	d
+BAYER_GBRG	include/format.h	150;"	d
+BAYER_GRBG	include/format.h	144;"	d
+BAYER_MASK	include/format.h	138;"	d
+BAYER_RGGB	include/format.h	156;"	d
+BITMAPFILEHEADER	include/savebmp.h	/^} BITMAPFILEHEADER;$/;"	t	typeref:struct:__anon2
+BITMAPINFOHEADER	include/savebmp.h	/^} BITMAPINFOHEADER;$/;"	t	typeref:struct:__anon3
+BITS_IN_JSAMPLE	include/jmorecfg.h	23;"	d
+BLOCK_SMOOTHING_SUPPORTED	include/jmorecfg.h	289;"	d
+BMP_SUPPORTED	include/jconfig.h	32;"	d
+BitStreamBuf	include/jpeg.h	/^	uint8_t *BitStreamBuf;$/;"	m	struct:__anon5
+CCIR601_sampling	include/jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_compress_struct
+CCIR601_sampling	include/jpeglib.h	/^  boolean CCIR601_sampling;	\/* TRUE=first samples are cosited *\/$/;"	m	struct:jpeg_decompress_struct
+CENTERJSAMPLE	include/jmorecfg.h	74;"	d
+CENTERJSAMPLE	include/jmorecfg.h	88;"	d
+CFLAGS	Makefile	/^CFLAGS  := -Iinclude -Wall -O2 -mips32r2$/;"	m
+CFLAGS	ipu/Makefile	/^CFLAGS  := -Wall -O2 -mips32$/;"	m
+CHAR_IS_UNSIGNED	include/jconfig.h	10;"	d
+CIM_OPS_REG	include/jz_cim.h	21;"	d
+CIM_RD_REG	include/jz_cim.h	23;"	d
+CIM_WR_REG	include/jz_cim.h	22;"	d
+CLEAR	cim/video.c	30;"	d	file:
+CPM_CLKGR	ipu/jz4750_ipu_regops.h	9;"	d
+CPM_CLKGR_VADDR	ipu/jz4750_ipu_regops.h	10;"	d
+CPU_TYPE	ipu/test_ipu.c	48;"	d	file:
+CROSS	Makefile	/^CROSS   := mips-linux-gnu-$/;"	m
+CROSS	ipu/Makefile	/^CROSS   := mipsel-linux-$/;"	m
+CSC_EN	ipu/jz4750_ipu_regops.h	65;"	d
+C_ARITH_CODING_SUPPORTED	include/jmorecfg.h	269;"	d
+C_MAX_BLOCKS_IN_MCU	include/jpeglib.h	55;"	d
+C_MULTISCAN_FILES_SUPPORTED	include/jmorecfg.h	270;"	d
+C_PROGRESSIVE_SUPPORTED	include/jmorecfg.h	271;"	d
+Cb	ipu/yuv_decode.c	/^	unsigned char Cb[64];$/;"	m	struct:macroblock	file:
+Cr	ipu/yuv_decode.c	/^	unsigned char Cr[64];$/;"	m	struct:macroblock	file:
+DBG	cim/video.c	35;"	d	file:
+DBLK_CLOCK	ipu/jz4750_ipu_regops.h	14;"	d
+DBLK__OFFSET	ipu/jz4750_ipu_regops.h	32;"	d
+DBLK__SIZE	ipu/jz4750_ipu_regops.h	26;"	d
+DCTSIZE	include/jpeglib.h	41;"	d
+DCTSIZE2	include/jpeglib.h	42;"	d
+DCT_FLOAT_SUPPORTED	include/jmorecfg.h	265;"	d
+DCT_IFAST_SUPPORTED	include/jmorecfg.h	264;"	d
+DCT_ISLOW_SUPPORTED	include/jmorecfg.h	263;"	d
+DCT_scaled_size	include/jpeglib.h	/^  int DCT_scaled_size;$/;"	m	struct:__anon9
+DEBUG_LEVEL	ipu/test_ipu.c	42;"	d	file:
+DEFAULT_HEIGHT	main.c	7;"	d	file:
+DEFAULT_MAX_MEM	include/jconfig.h	25;"	d
+DEFAULT_WIDTH	main.c	6;"	d	file:
+DF_IS_RGB565	include/format.h	31;"	d
+DF_IS_RGB888	include/format.h	30;"	d
+DF_IS_YCbCr420	include/format.h	42;"	d
+DF_IS_YCbCr422	include/format.h	35;"	d
+DF_IS_YCbCr444	include/format.h	33;"	d
+DISP_FMT_BAYER	include/format.h	71;"	d
+DISP_FMT_ITU656I	include/format.h	73;"	d
+DISP_FMT_ITU656P	include/format.h	72;"	d
+DISP_FMT_OTHER	include/format.h	74;"	d
+DISP_FMT_RGB565	include/format.h	70;"	d
+DISP_FMT_RGB888	include/format.h	69;"	d
+DISP_FMT_YCbCr420	include/format.h	68;"	d
+DISP_FMT_YCbCr422	include/format.h	67;"	d
+DISP_FMT_YCbCr444	include/format.h	66;"	d
+DONT_USE_B_MODE	include/jconfig.h	40;"	d
+DWORD	include/savebmp.h	/^typedef unsigned long	DWORD;	\/\/4 Bytes$/;"	t
+D_ARITH_CODING_SUPPORTED	include/jmorecfg.h	285;"	d
+D_MAX_BLOCKS_IN_MCU	include/jpeglib.h	57;"	d
+D_MULTISCAN_FILES_SUPPORTED	include/jmorecfg.h	286;"	d
+D_PROGRESSIVE_SUPPORTED	include/jmorecfg.h	287;"	d
+ENTROPY_OPT_SUPPORTED	include/jmorecfg.h	272;"	d
+EXTERN	include/jmorecfg.h	190;"	d
+FALSE	include/jmorecfg.h	230;"	d
+FAR	include/jmorecfg.h	213;"	d
+FAR	include/jmorecfg.h	215;"	d
+FAST_FLOAT	include/jmorecfg.h	357;"	d
+FAST_FLOAT	include/jmorecfg.h	359;"	d
+FM_IRQ_EN	ipu/jz4750_ipu_regops.h	66;"	d
+GETJOCTET	include/jmorecfg.h	111;"	d
+GETJOCTET	include/jmorecfg.h	117;"	d
+GETJOCTET	include/jmorecfg.h	119;"	d
+GETJSAMPLE	include/jmorecfg.h	60;"	d
+GETJSAMPLE	include/jmorecfg.h	66;"	d
+GETJSAMPLE	include/jmorecfg.h	68;"	d
+GETJSAMPLE	include/jmorecfg.h	85;"	d
+GIF_SUPPORTED	include/jconfig.h	33;"	d
+GLOBAL	include/jmorecfg.h	188;"	d
+HAVE_PROTOTYPES	include/jconfig.h	5;"	d
+HAVE_STDDEF_H	include/jconfig.h	11;"	d
+HAVE_STDLIB_H	include/jconfig.h	12;"	d
+HAVE_UNSIGNED_CHAR	include/jconfig.h	6;"	d
+HAVE_UNSIGNED_SHORT	include/jconfig.h	7;"	d
+HEADER_SIZE	include/headers.h	81;"	d
+HE_IDX_SFT	ipu/jz4750_ipu_regops.h	110;"	d
+HIGH_QUALITY	include/jpeg.h	/^	HIGH_QUALITY,$/;"	e	enum:__anon4
+HRSZ_EN	ipu/jz4750_ipu_regops.h	63;"	d
+HRSZ_LUT_BASE	ipu/jz4750_ipu_regops.h	55;"	d
+H_SCALE_SHIFT	ipu/jz4750_ipu_regops.h	70;"	d
+H_UP_SCALE	ipu/jz4750_ipu_regops.h	68;"	d
+Hsel	ipu/jz47_iputype.h	/^   int outW, outH, Wsel, Hsel;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+IDCT_CLOCK	ipu/jz4750_ipu_regops.h	13;"	d
+IDCT_SCALING_SUPPORTED	include/jmorecfg.h	290;"	d
+IDCT__OFFSET	ipu/jz4750_ipu_regops.h	33;"	d
+IDCT__SIZE	ipu/jz4750_ipu_regops.h	27;"	d
+IMEM_INFO	ipu/jz47_soc_mem.c	/^struct IMEM_INFO$/;"	s	file:
+IMG_HEIGHT	ipu/yuv_decode.c	15;"	d	file:
+IMG_HEIGHT2	ipu/test_ipu.c	/^static int IMG_HEIGHT2 = 272;$/;"	v	file:
+IMG_WIDTH	ipu/yuv_decode.c	14;"	d	file:
+IMG_WIDTH2	ipu/test_ipu.c	/^static int IMG_WIDTH2 = 480;$/;"	v	file:
+INCOMPLETE_TYPES_BROKEN	include/jconfig.h	18;"	d
+INFMT_YCbCr411	ipu/jz4750_ipu_regops.h	87;"	d
+INFMT_YCbCr420	ipu/jz4750_ipu_regops.h	84;"	d
+INFMT_YCbCr422	ipu/jz4750_ipu_regops.h	85;"	d
+INFMT_YCbCr444	ipu/jz4750_ipu_regops.h	86;"	d
+INFMT_YUV411	ipu/jz4750_ipu_regops.h	83;"	d
+INFMT_YUV420	ipu/jz4750_ipu_regops.h	80;"	d
+INFMT_YUV422	ipu/jz4750_ipu_regops.h	81;"	d
+INFMT_YUV444	ipu/jz4750_ipu_regops.h	82;"	d
+INLINE	include/jconfig.h	23;"	d
+INLINE	include/jmorecfg.h	329;"	d
+INLINE	include/jmorecfg.h	332;"	d
+INPUT_SMOOTHING_SUPPORTED	include/jmorecfg.h	281;"	d
+INT16	include/jmorecfg.h	/^typedef short INT16;$/;"	t
+INT32	include/jmorecfg.h	/^typedef long INT32;$/;"	t
+IN_FMT_MASK	ipu/jz4750_ipu_regops.h	97;"	d
+IN_FM_H	ipu/jz4750_ipu_regops.h	96;"	d
+IN_FM_W	ipu/jz4750_ipu_regops.h	95;"	d
+IN_N_MSK	ipu/jz4750_ipu_regops.h	116;"	d
+IN_N_SFT	ipu/jz4750_ipu_regops.h	115;"	d
+IO_METHOD_MMAP	cim/video.c	/^	IO_METHOD_MMAP,$/;"	e	enum:__anon1	file:
+IO_METHOD_READ	cim/video.c	/^	IO_METHOD_READ,$/;"	e	enum:__anon1	file:
+IO_METHOD_USERPTR	cim/video.c	/^	IO_METHOD_USERPTR,$/;"	e	enum:__anon1	file:
+IPU_ADDRSEL	ipu/jz4750_ipu_regops.h	73;"	d
+IPU_CLOCK	ipu/jz4750_ipu_regops.h	17;"	d
+IPU_CSC_OFFSET_LUMA_OF	ipu/jz4750_ipu.h	215;"	d
+IPU_CSC_OFFSET_LUMA_OF_MASK	ipu/jz4750_ipu.h	214;"	d
+IPU_CSC_OFFSET_PARA_CHROM_OF	ipu/jz4750_ipu.h	212;"	d
+IPU_CSC_OFFSET_PARA_CHROM_OF_MASK	ipu/jz4750_ipu.h	211;"	d
+IPU_CTRL_CHIP_EN	ipu/jz4750_ipu.h	113;"	d
+IPU_CTRL_CSC_EN	ipu/jz4750_ipu.h	109;"	d
+IPU_CTRL_DFIX_SEL	ipu/jz4750_ipu.h	97;"	d
+IPU_CTRL_DISP_SEL	ipu/jz4750_ipu.h	100;"	d
+IPU_CTRL_DPAGE_MAP	ipu/jz4750_ipu.h	101;"	d
+IPU_CTRL_FIELD_CONF_EN	ipu/jz4750_ipu.h	99;"	d
+IPU_CTRL_FIELD_SEL	ipu/jz4750_ipu.h	98;"	d
+IPU_CTRL_FM_IRQ_EN	ipu/jz4750_ipu.h	108;"	d
+IPU_CTRL_HRSZ_EN	ipu/jz4750_ipu.h	111;"	d
+IPU_CTRL_H_SCALE	ipu/jz4750_ipu.h	106;"	d
+IPU_CTRL_IPU_RST	ipu/jz4750_ipu.h	107;"	d
+IPU_CTRL_IPU_RUN	ipu/jz4750_ipu.h	112;"	d
+IPU_CTRL_LCDC_SEL	ipu/jz4750_ipu.h	103;"	d
+IPU_CTRL_SPAGE_MAP	ipu/jz4750_ipu.h	102;"	d
+IPU_CTRL_SPKG_SEL	ipu/jz4750_ipu.h	104;"	d
+IPU_CTRL_VRSZ_EN	ipu/jz4750_ipu.h	110;"	d
+IPU_CTRL_V_SCALE	ipu/jz4750_ipu.h	105;"	d
+IPU_D_FMT_IN_FMT_MASK	ipu/jz4750_ipu.h	158;"	d
+IPU_D_FMT_IN_FMT_YUV411	ipu/jz4750_ipu.h	163;"	d
+IPU_D_FMT_IN_FMT_YUV420	ipu/jz4750_ipu.h	160;"	d
+IPU_D_FMT_IN_FMT_YUV422	ipu/jz4750_ipu.h	161;"	d
+IPU_D_FMT_IN_FMT_YUV444	ipu/jz4750_ipu.h	162;"	d
+IPU_D_FMT_IN_OFT_MASK	ipu/jz4750_ipu.h	151;"	d
+IPU_D_FMT_IN_OFT_UY1VY0	ipu/jz4750_ipu.h	155;"	d
+IPU_D_FMT_IN_OFT_VY1UY0	ipu/jz4750_ipu.h	156;"	d
+IPU_D_FMT_IN_OFT_Y1UY0V	ipu/jz4750_ipu.h	153;"	d
+IPU_D_FMT_IN_OFT_Y1VY0U	ipu/jz4750_ipu.h	154;"	d
+IPU_D_FMT_OUT_FMT_MASK	ipu/jz4750_ipu.h	133;"	d
+IPU_D_FMT_OUT_FMT_RGB555	ipu/jz4750_ipu.h	135;"	d
+IPU_D_FMT_OUT_FMT_RGB565	ipu/jz4750_ipu.h	136;"	d
+IPU_D_FMT_OUT_FMT_RGB888	ipu/jz4750_ipu.h	137;"	d
+IPU_D_FMT_OUT_FMT_YUV422	ipu/jz4750_ipu.h	138;"	d
+IPU_D_FMT_RGB_OUT_888_FMT	ipu/jz4750_ipu.h	122;"	d
+IPU_D_FMT_RGB_OUT_OFT_BGR	ipu/jz4750_ipu.h	131;"	d
+IPU_D_FMT_RGB_OUT_OFT_BRG	ipu/jz4750_ipu.h	130;"	d
+IPU_D_FMT_RGB_OUT_OFT_GBR	ipu/jz4750_ipu.h	128;"	d
+IPU_D_FMT_RGB_OUT_OFT_GRB	ipu/jz4750_ipu.h	129;"	d
+IPU_D_FMT_RGB_OUT_OFT_MASK	ipu/jz4750_ipu.h	124;"	d
+IPU_D_FMT_RGB_OUT_OFT_RBG	ipu/jz4750_ipu.h	127;"	d
+IPU_D_FMT_RGB_OUT_OFT_RGB	ipu/jz4750_ipu.h	126;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_MASK	ipu/jz4750_ipu.h	140;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_UY0VY1	ipu/jz4750_ipu.h	148;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_UY1VY0	ipu/jz4750_ipu.h	144;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_VY0UY1	ipu/jz4750_ipu.h	149;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_VY1UY0	ipu/jz4750_ipu.h	145;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_Y0UY1V	ipu/jz4750_ipu.h	146;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_Y0VY1U	ipu/jz4750_ipu.h	147;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_Y1UY0V	ipu/jz4750_ipu.h	142;"	d
+IPU_D_FMT_YUV_PKG_OUT_OFT_Y1VY0U	ipu/jz4750_ipu.h	143;"	d
+IPU_EN	ipu/jz4750_ipu_regops.h	61;"	d
+IPU_HRSZ_COEF_LUT_IN_EN	ipu/jz4750_ipu.h	199;"	d
+IPU_HRSZ_COEF_LUT_OUT_EN	ipu/jz4750_ipu.h	200;"	d
+IPU_HRSZ_COEF_LUT_START	ipu/jz4750_ipu.h	194;"	d
+IPU_HRSZ_COEF_LUT_W_COEF	ipu/jz4750_ipu.h	197;"	d
+IPU_HRSZ_COEF_LUT_W_COEF_MASK	ipu/jz4750_ipu.h	196;"	d
+IPU_IN_FM_GS_H	ipu/jz4750_ipu.h	170;"	d
+IPU_IN_FM_GS_H_MASK	ipu/jz4750_ipu.h	169;"	d
+IPU_IN_FM_GS_W	ipu/jz4750_ipu.h	167;"	d
+IPU_IN_FM_GS_W_MASK	ipu/jz4750_ipu.h	166;"	d
+IPU_LCDCSEL	ipu/jz4750_ipu_regops.h	72;"	d
+IPU_LUT_LEN	ipu/jz4750_ipu.h	220;"	d
+IPU_LUT_LEN	ipu/jz4750_ipu.h	221;"	d
+IPU_LUT_LEN	ipu/jz47_iputype.h	2;"	d
+IPU_OUT_FB	ipu/test_ipu.c	36;"	d	file:
+IPU_OUT_GS_H	ipu/jz4750_ipu.h	184;"	d
+IPU_OUT_GS_H_MASK	ipu/jz4750_ipu.h	183;"	d
+IPU_OUT_GS_W	ipu/jz4750_ipu.h	181;"	d
+IPU_OUT_GS_W_MASK	ipu/jz4750_ipu.h	180;"	d
+IPU_OUT_LCD	ipu/test_ipu.c	37;"	d	file:
+IPU_OUT_MEM	ipu/test_ipu.c	40;"	d	file:
+IPU_OUT_NTSC_TV	ipu/test_ipu.c	39;"	d	file:
+IPU_OUT_PAL_TV	ipu/test_ipu.c	38;"	d	file:
+IPU_P_BASE	ipu/jz4750_ipu_regops.h	20;"	d
+IPU_RESET	ipu/jz4750_ipu_regops.h	67;"	d
+IPU_RSZ_COEF_INDEX_HE_IDX	ipu/jz4750_ipu.h	188;"	d
+IPU_RSZ_COEF_INDEX_HE_IDX_MASK	ipu/jz4750_ipu.h	187;"	d
+IPU_RSZ_COEF_INDEX_VE_IDX	ipu/jz4750_ipu.h	191;"	d
+IPU_RSZ_COEF_INDEX_VE_IDX_MASK	ipu/jz4750_ipu.h	190;"	d
+IPU_RUN	ipu/jz4750_ipu_regops.h	62;"	d
+IPU_STAT_FMT_ERR	ipu/jz4750_ipu.h	117;"	d
+IPU_STAT_OUT_END	ipu/jz4750_ipu.h	118;"	d
+IPU_STAT_SIZE_ERR	ipu/jz4750_ipu.h	116;"	d
+IPU_UV_STRIDE_U_S	ipu/jz4750_ipu.h	174;"	d
+IPU_UV_STRIDE_U_S_MASK	ipu/jz4750_ipu.h	173;"	d
+IPU_UV_STRIDE_V_S	ipu/jz4750_ipu.h	177;"	d
+IPU_UV_STRIDE_V_S_MASK	ipu/jz4750_ipu.h	176;"	d
+IPU_VRSZ_COEF_LUT_IN_EN	ipu/jz4750_ipu.h	207;"	d
+IPU_VRSZ_COEF_LUT_OUT_EN	ipu/jz4750_ipu.h	208;"	d
+IPU_VRSZ_COEF_LUT_START	ipu/jz4750_ipu.h	202;"	d
+IPU_VRSZ_COEF_LUT_W_COEF	ipu/jz4750_ipu.h	205;"	d
+IPU_VRSZ_COEF_LUT_W_COEF_MASK	ipu/jz4750_ipu.h	204;"	d
+IPU__OFFSET	ipu/jz4750_ipu_regops.h	21;"	d
+IPU__SIZE	ipu/jz4750_ipu_regops.h	22;"	d
+IPU_output_panel	ipu/jz47_iputype.h	/^  struct IPU_output_panel$/;"	s	struct:JZ47_IPU_MOD
+IPU_rsize_para	ipu/jz47_iputype.h	/^ struct IPU_rsize_para$/;"	s	struct:JZ47_IPU_MOD
+ITU656I_YCbCr420_FMT	include/format.h	101;"	d
+ITU656I_YCbCr422_CbY0CrY1	include/format.h	96;"	d
+ITU656P_YCbCr420_FMT	include/format.h	100;"	d
+ITU656P_YCbCr422_CbY0CrY1	include/format.h	95;"	d
+JBLOCK	include/jpeglib.h	/^typedef JCOEF JBLOCK[DCTSIZE2];	\/* one block of coefficients *\/$/;"	t
+JBLOCKARRAY	include/jpeglib.h	/^typedef JBLOCKROW *JBLOCKARRAY;		\/* a 2-D array of coefficient blocks *\/$/;"	t
+JBLOCKIMAGE	include/jpeglib.h	/^typedef JBLOCKARRAY *JBLOCKIMAGE;	\/* a 3-D array of coefficient blocks *\/$/;"	t
+JBLOCKROW	include/jpeglib.h	/^typedef JBLOCK FAR *JBLOCKROW;	\/* pointer to one row of coefficient blocks *\/$/;"	t
+JCOEF	include/jmorecfg.h	/^typedef short JCOEF;$/;"	t
+JCOEFPTR	include/jpeglib.h	/^typedef JCOEF FAR *JCOEFPTR;	\/* useful in a couple of places *\/$/;"	t
+JCS_CMYK	include/jpeglib.h	/^	JCS_CMYK,		\/* C\/M\/Y\/K *\/$/;"	e	enum:__anon11
+JCS_GRAYSCALE	include/jpeglib.h	/^	JCS_GRAYSCALE,		\/* monochrome *\/$/;"	e	enum:__anon11
+JCS_RGB	include/jpeglib.h	/^	JCS_RGB,		\/* red\/green\/blue *\/$/;"	e	enum:__anon11
+JCS_UNKNOWN	include/jpeglib.h	/^	JCS_UNKNOWN,		\/* error\/unspecified *\/$/;"	e	enum:__anon11
+JCS_YCCK	include/jpeglib.h	/^	JCS_YCCK		\/* Y\/Cb\/Cr\/K *\/$/;"	e	enum:__anon11
+JCS_YCbCr	include/jpeglib.h	/^	JCS_YCbCr,		\/* Y\/Cb\/Cr (also known as YUV) *\/$/;"	e	enum:__anon11
+JDCT_DEFAULT	include/jpeglib.h	224;"	d
+JDCT_FASTEST	include/jpeglib.h	227;"	d
+JDCT_FLOAT	include/jpeglib.h	/^	JDCT_FLOAT		\/* floating-point: accurate, fast on fast HW *\/$/;"	e	enum:__anon12
+JDCT_IFAST	include/jpeglib.h	/^	JDCT_IFAST,		\/* faster, less accurate integer method *\/$/;"	e	enum:__anon12
+JDCT_ISLOW	include/jpeglib.h	/^	JDCT_ISLOW,		\/* slow but accurate integer algorithm *\/$/;"	e	enum:__anon12
+JDIMENSION	include/jmorecfg.h	/^typedef unsigned int JDIMENSION;$/;"	t
+JDITHER_FS	include/jpeglib.h	/^	JDITHER_FS		\/* Floyd-Steinberg error diffusion dither *\/$/;"	e	enum:__anon13
+JDITHER_NONE	include/jpeglib.h	/^	JDITHER_NONE,		\/* no dithering *\/$/;"	e	enum:__anon13
+JDITHER_ORDERED	include/jpeglib.h	/^	JDITHER_ORDERED,	\/* simple ordered dither *\/$/;"	e	enum:__anon13
+JFIF_major_version	include/jpeglib.h	/^  UINT8 JFIF_major_version;	\/* JFIF version number *\/$/;"	m	struct:jpeg_decompress_struct
+JFIF_major_version	include/jpeglib.h	/^  UINT8 JFIF_major_version;	\/* What to write for the JFIF version number *\/$/;"	m	struct:jpeg_compress_struct
+JFIF_minor_version	include/jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_compress_struct
+JFIF_minor_version	include/jpeglib.h	/^  UINT8 JFIF_minor_version;$/;"	m	struct:jpeg_decompress_struct
+JHUFF_TBL	include/jpeglib.h	/^} JHUFF_TBL;$/;"	t	typeref:struct:__anon8
+JMETHOD	include/jmorecfg.h	200;"	d
+JMETHOD	include/jmorecfg.h	202;"	d
+JMETHOD	include/jpeglib.h	/^typedef JMETHOD(boolean, jpeg_marker_parser_method, (j_decompress_ptr cinfo));$/;"	t
+JMSG_LENGTH_MAX	include/jpeglib.h	652;"	d
+JMSG_STR_PARM_MAX	include/jpeglib.h	660;"	d
+JOCTET	include/jmorecfg.h	/^typedef char JOCTET;$/;"	t
+JOCTET	include/jmorecfg.h	/^typedef unsigned char JOCTET;$/;"	t
+JPEGLIB_H	include/jpeglib.h	14;"	d
+JPEG_APP0	include/jpeglib.h	1047;"	d
+JPEG_COM	include/jpeglib.h	1048;"	d
+JPEG_EOI	include/jpeglib.h	1046;"	d
+JPEG_HEADER_OK	include/jpeglib.h	966;"	d
+JPEG_HEADER_TABLES_ONLY	include/jpeglib.h	967;"	d
+JPEG_INTERNAL_OPTIONS	include/jmorecfg.h	245;"	d
+JPEG_LIB_VERSION	include/jpeglib.h	33;"	d
+JPEG_MAX_DIMENSION	include/jmorecfg.h	173;"	d
+JPEG_REACHED_EOI	include/jpeglib.h	997;"	d
+JPEG_REACHED_SOS	include/jpeglib.h	996;"	d
+JPEG_ROW_COMPLETED	include/jpeglib.h	998;"	d
+JPEG_RST0	include/jpeglib.h	1045;"	d
+JPEG_SCAN_COMPLETED	include/jpeglib.h	999;"	d
+JPEG_SUSPENDED	include/jpeglib.h	965;"	d
+JPOOL_IMAGE	include/jpeglib.h	749;"	d
+JPOOL_NUMPOOLS	include/jpeglib.h	750;"	d
+JPOOL_PERMANENT	include/jpeglib.h	748;"	d
+JPP	include/jpeglib.h	818;"	d
+JPP	include/jpeglib.h	820;"	d
+JQUANT_TBL	include/jpeglib.h	/^} JQUANT_TBL;$/;"	t	typeref:struct:__anon7
+JSAMPARRAY	include/jpeglib.h	/^typedef JSAMPROW *JSAMPARRAY;	\/* ptr to some rows (a 2-D sample array) *\/$/;"	t
+JSAMPIMAGE	include/jpeglib.h	/^typedef JSAMPARRAY *JSAMPIMAGE;	\/* a 3-D sample array: top index is color *\/$/;"	t
+JSAMPLE	include/jmorecfg.h	/^typedef char JSAMPLE;$/;"	t
+JSAMPLE	include/jmorecfg.h	/^typedef short JSAMPLE;$/;"	t
+JSAMPLE	include/jmorecfg.h	/^typedef unsigned char JSAMPLE;$/;"	t
+JSAMPROW	include/jpeglib.h	/^typedef JSAMPLE FAR *JSAMPROW;	\/* ptr to one image row of pixel samples. *\/$/;"	t
+JZ47_IPU_MOD	ipu/jz47_iputype.h	/^struct JZ47_IPU_MOD {$/;"	s
+JZ47_MEM_DEV	ipu/jz47_soc_mem.c	/^struct JZ47_MEM_DEV {$/;"	s	file:
+JZIPU_IN_FMT_YUV411	ipu/jz4750_ipu.h	/^	JZIPU_IN_FMT_YUV411,$/;"	e	enum:__anon15
+JZIPU_IN_FMT_YUV420	ipu/jz4750_ipu.h	/^	JZIPU_IN_FMT_YUV420,$/;"	e	enum:__anon15
+JZIPU_IN_FMT_YUV422	ipu/jz4750_ipu.h	/^	JZIPU_IN_FMT_YUV422,$/;"	e	enum:__anon15
+JZIPU_IN_FMT_YUV444	ipu/jz4750_ipu.h	/^	JZIPU_IN_FMT_YUV444,$/;"	e	enum:__anon15
+JZIPU_IN_OFT_UY1VY0	ipu/jz4750_ipu.h	/^	JZIPU_IN_OFT_UY1VY0,$/;"	e	enum:__anon16
+JZIPU_IN_OFT_VY1UY0	ipu/jz4750_ipu.h	/^	JZIPU_IN_OFT_VY1UY0,$/;"	e	enum:__anon16
+JZIPU_IN_OFT_Y1UY0V	ipu/jz4750_ipu.h	/^	JZIPU_IN_OFT_Y1UY0V,$/;"	e	enum:__anon16
+JZIPU_IN_OFT_Y1VY0U	ipu/jz4750_ipu.h	/^	JZIPU_IN_OFT_Y1VY0U,$/;"	e	enum:__anon16
+JZIPU_IO_PUT_IMG	ipu/jz4750_ipu.h	218;"	d
+JZIPU_OUT_FMT_RGB555	ipu/jz4750_ipu.h	/^	JZIPU_OUT_FMT_RGB555,$/;"	e	enum:__anon18
+JZIPU_OUT_FMT_RGB565	ipu/jz4750_ipu.h	/^	JZIPU_OUT_FMT_RGB565,$/;"	e	enum:__anon18
+JZIPU_OUT_FMT_RGB888	ipu/jz4750_ipu.h	/^	JZIPU_OUT_FMT_RGB888,$/;"	e	enum:__anon18
+JZIPU_OUT_FMT_YUV422	ipu/jz4750_ipu.h	/^	JZIPU_OUT_FMT_YUV422,$/;"	e	enum:__anon18
+JZIPU_OUT_OFT_BGR	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_BGR,$/;"	e	enum:__anon19
+JZIPU_OUT_OFT_BRG	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_BRG,$/;"	e	enum:__anon19
+JZIPU_OUT_OFT_GBR	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_GBR,$/;"	e	enum:__anon19
+JZIPU_OUT_OFT_GRB	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_GRB,$/;"	e	enum:__anon19
+JZIPU_OUT_OFT_RBG	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_RBG,$/;"	e	enum:__anon19
+JZIPU_OUT_OFT_RGB	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_RGB,$/;"	e	enum:__anon19
+JZIPU_OUT_OFT_UY0VY1	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_UY0VY1,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_UY1VY0	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_UY1VY0,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_VY0UY1	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_VY0UY1,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_VY1UY0	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_VY1UY0,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_Y0UY1V	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_Y0UY1V,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_Y0VY1U	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_Y0VY1U,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_Y1UY0V	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_Y1UY0V,$/;"	e	enum:__anon17
+JZIPU_OUT_OFT_Y1VY0U	ipu/jz4750_ipu.h	/^	JZIPU_OUT_OFT_Y1VY0U,$/;"	e	enum:__anon17
+J_COLOR_SPACE	include/jpeglib.h	/^} J_COLOR_SPACE;$/;"	t	typeref:enum:__anon11
+J_DCT_METHOD	include/jpeglib.h	/^} J_DCT_METHOD;$/;"	t	typeref:enum:__anon12
+J_DITHER_MODE	include/jpeglib.h	/^} J_DITHER_MODE;$/;"	t	typeref:enum:__anon13
+LIBS	Makefile	/^LIBS 	:= -L ..\/jpg_api\/ -ljpeg$/;"	m
+LIB_OBJS	ipu/Makefile	/^LIB_OBJS := test_ipu.o jz47_soc_mem.o jz47_soc_rsize.o$/;"	m
+LOCAL	include/jmorecfg.h	186;"	d
+LOCAL_CFLAGS	Build.mk	/^LOCAL_CFLAGS := -mmxu$/;"	m
+LOCAL_COPY_FILES	Build.mk	/^LOCAL_COPY_FILES := CameraDemo.sh:CameraDemo.sh$/;"	m
+LOCAL_C_INCLUDES	Build.mk	/^LOCAL_C_INCLUDES:= include$/;"	m
+LOCAL_DEPANNER_MODULES	Build.mk	/^LOCAL_DEPANNER_MODULES := CameraDemo.sh libjpeg-hw libjpeg$/;"	m
+LOCAL_LDLIBS	Build.mk	/^LOCAL_LDLIBS := -lc -ljpeg-hw -ljpeg$/;"	m
+LOCAL_MODULE	Build.mk	/^LOCAL_MODULE := CameraDemo.sh$/;"	m
+LOCAL_MODULE	Build.mk	/^LOCAL_MODULE=cimutils$/;"	m
+LOCAL_MODULE_PATH	Build.mk	/^LOCAL_MODULE_PATH := $(TARGET_FS_BUILD)\/$(TARGET_TESTSUIT_DIR)\/CameraDemo$/;"	m
+LOCAL_MODULE_TAGS	Build.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_MODULE_TAGS	Build.mk	/^LOCAL_MODULE_TAGS:= optional$/;"	m
+LOCAL_PATH	Build.mk	/^LOCAL_PATH := $(my-dir)$/;"	m
+LOCAL_SRC_FILES	Build.mk	/^LOCAL_SRC_FILES:= main.c      \\$/;"	m
+LOW_QUALITY	include/jpeg.h	/^	LOW_QUALITY,$/;"	e	enum:__anon4
+MACRO_LINES	ipu/yuv_decode.c	40;"	d	file:
+MACRO_PER_LINE	ipu/yuv_decode.c	41;"	d	file:
+MAXJSAMPLE	include/jmorecfg.h	73;"	d
+MAXJSAMPLE	include/jmorecfg.h	87;"	d
+MAXLEN	ipu/yuv_decode.c	17;"	d	file:
+MAX_COMPONENTS	include/jmorecfg.h	35;"	d
+MAX_COMPS_IN_SCAN	include/jpeglib.h	46;"	d
+MAX_SAMP_FACTOR	include/jpeglib.h	47;"	d
+MB_DEBUG	jpg/savejpeg.c	237;"	d	file:
+MB_DEBUG	jpg/savejpeg_bak.c	378;"	d	file:
+MCU_blocks	include/jpeglib.h	/^  int MCU_blocks;		\/* MCU_width * MCU_height *\/$/;"	m	struct:__anon9
+MCU_height	include/jpeglib.h	/^  int MCU_height;		\/* number of blocks per MCU, vertically *\/$/;"	m	struct:__anon9
+MCU_membership	include/jpeglib.h	/^  int MCU_membership[C_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_compress_struct
+MCU_membership	include/jpeglib.h	/^  int MCU_membership[D_MAX_BLOCKS_IN_MCU];$/;"	m	struct:jpeg_decompress_struct
+MCU_rows_in_scan	include/jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_compress_struct
+MCU_rows_in_scan	include/jpeglib.h	/^  JDIMENSION MCU_rows_in_scan;	\/* # of MCU rows in the image *\/$/;"	m	struct:jpeg_decompress_struct
+MCU_sample_width	include/jpeglib.h	/^  int MCU_sample_width;		\/* MCU width in samples, MCU_width*DCT_scaled_size *\/$/;"	m	struct:__anon9
+MCU_width	include/jpeglib.h	/^  int MCU_width;		\/* number of blocks per MCU, horizontally *\/$/;"	m	struct:__anon9
+MCUs_per_row	include/jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_compress_struct
+MCUs_per_row	include/jpeglib.h	/^  JDIMENSION MCUs_per_row;	\/* # of MCUs across the image *\/$/;"	m	struct:jpeg_decompress_struct
+MC_CLOCK	ipu/jz4750_ipu_regops.h	16;"	d
+MC__OFFSET	ipu/jz4750_ipu_regops.h	31;"	d
+MC__SIZE	ipu/jz4750_ipu_regops.h	25;"	d
+MEDIUMS_QUALITY	include/jpeg.h	/^	MEDIUMS_QUALITY,$/;"	e	enum:__anon4
+MEM_ALLOC_DEV_NUM	ipu/jz47_soc_mem.c	11;"	d	file:
+METHODDEF	include/jmorecfg.h	184;"	d
+ME_CLOCK	ipu/jz4750_ipu_regops.h	15;"	d
+ME__OFFSET	ipu/jz4750_ipu_regops.h	30;"	d
+ME__SIZE	ipu/jz4750_ipu_regops.h	24;"	d
+MULTIPLIER	include/jmorecfg.h	343;"	d
+NEED_BSD_STRINGS	include/jconfig.h	13;"	d
+NEED_FAR_POINTERS	include/jconfig.h	15;"	d
+NEED_SHORT_EXTERNAL_NAMES	include/jconfig.h	16;"	d
+NEED_SIGNAL_CATCHER	include/jconfig.h	39;"	d
+NEED_SYS_TYPES_H	include/jconfig.h	14;"	d
+NO_MKTEMP	include/jconfig.h	26;"	d
+NUM_ARITH_TBLS	include/jpeglib.h	45;"	d
+NUM_HUFF_TBLS	include/jpeglib.h	44;"	d
+NUM_QUANT_TBLS	include/jpeglib.h	43;"	d
+OBJS	Makefile	/^OBJS := main.o		\\$/;"	m
+OPS_DISPLAY_RAW	include/preview_display.h	/^	OPS_DISPLAY_RAW		= 4,$/;"	e	enum:options
+OPS_PREVIEW	include/preview_display.h	/^	OPS_PREVIEW		= 0,$/;"	e	enum:options
+OPS_SAVE_BMP	include/preview_display.h	/^	OPS_SAVE_BMP		= 1,$/;"	e	enum:options
+OPS_SAVE_JPG	include/preview_display.h	/^	OPS_SAVE_JPG		= 2,$/;"	e	enum:options
+OPS_SAVE_RAW	include/preview_display.h	/^	OPS_SAVE_RAW		= 3,$/;"	e	enum:options
+OUTFMT_RGB555	ipu/jz4750_ipu_regops.h	89;"	d
+OUTFMT_RGB565	ipu/jz4750_ipu_regops.h	90;"	d
+OUTFMT_RGB888	ipu/jz4750_ipu_regops.h	91;"	d
+OUTFMT_YUV422	ipu/jz4750_ipu_regops.h	92;"	d
+OUTPUT_MODE	ipu/test_ipu.c	50;"	d	file:
+OUTPUT_MODE	ipu/test_ipu.c	52;"	d	file:
+OUT_END	ipu/jz4750_ipu_regops.h	77;"	d
+OUT_FMT_MASK	ipu/jz4750_ipu_regops.h	98;"	d
+OUT_FM_H	ipu/jz4750_ipu_regops.h	102;"	d
+OUT_FM_W	ipu/jz4750_ipu_regops.h	101;"	d
+OUT_N_MSK	ipu/jz4750_ipu_regops.h	114;"	d
+OUT_N_SFT	ipu/jz4750_ipu_regops.h	113;"	d
+PAGE_SIZE	ipu/jz47_soc_mem.c	10;"	d	file:
+PIX_FMT_BGR24	ipu/jz47_iputype.h	/^    PIX_FMT_BGR24,     \/\/\/< Packed RGB 8:8:8, 24bpp, BGRBGR...$/;"	e	enum:PixelFormat
+PIX_FMT_BGR32	ipu/jz47_iputype.h	/^    PIX_FMT_BGR32,     \/\/\/< Packed RGB 8:8:8, 32bpp, (msb)8A 8B 8G 8R(lsb), in cpu endianness$/;"	e	enum:PixelFormat
+PIX_FMT_BGR32_1	ipu/jz47_iputype.h	/^    PIX_FMT_BGR32_1,   \/\/\/< Packed RGB 8:8:8, 32bpp, (msb)8B 8G 8R 8A(lsb), in cpu endianness$/;"	e	enum:PixelFormat
+PIX_FMT_BGR4	ipu/jz47_iputype.h	/^    PIX_FMT_BGR4,      \/\/\/< Packed RGB 1:2:1,  4bpp, (msb)1B 2G 1R(lsb)$/;"	e	enum:PixelFormat
+PIX_FMT_BGR4_BYTE	ipu/jz47_iputype.h	/^    PIX_FMT_BGR4_BYTE, \/\/\/< Packed RGB 1:2:1,  8bpp, (msb)1B 2G 1R(lsb)$/;"	e	enum:PixelFormat
+PIX_FMT_BGR555	ipu/jz47_iputype.h	/^    PIX_FMT_BGR555,    \/\/\/< Packed RGB 5:5:5, 16bpp, (msb)1A 5B 5G 5R(lsb), in cpu endianness most significant bit to 1$/;"	e	enum:PixelFormat
+PIX_FMT_BGR565	ipu/jz47_iputype.h	/^    PIX_FMT_BGR565,    \/\/\/< Packed RGB 5:6:5, 16bpp, (msb)   5B 6G 5R(lsb), in cpu endianness$/;"	e	enum:PixelFormat
+PIX_FMT_BGR8	ipu/jz47_iputype.h	/^    PIX_FMT_BGR8,      \/\/\/< Packed RGB 3:3:2,  8bpp, (msb)2B 3G 3R(lsb)$/;"	e	enum:PixelFormat
+PIX_FMT_GRAY16BE	ipu/jz47_iputype.h	/^    PIX_FMT_GRAY16BE,  \/\/\/<        Y        , 16bpp, big-endian$/;"	e	enum:PixelFormat
+PIX_FMT_GRAY16LE	ipu/jz47_iputype.h	/^    PIX_FMT_GRAY16LE,  \/\/\/<        Y        , 16bpp, little-endian$/;"	e	enum:PixelFormat
+PIX_FMT_GRAY8	ipu/jz47_iputype.h	/^    PIX_FMT_GRAY8,     \/\/\/<        Y        ,  8bpp$/;"	e	enum:PixelFormat
+PIX_FMT_MONOBLACK	ipu/jz47_iputype.h	/^    PIX_FMT_MONOBLACK, \/\/\/<        Y        ,  1bpp, 0 is black, 1 is white$/;"	e	enum:PixelFormat
+PIX_FMT_MONOWHITE	ipu/jz47_iputype.h	/^    PIX_FMT_MONOWHITE, \/\/\/<        Y        ,  1bpp, 0 is white, 1 is black$/;"	e	enum:PixelFormat
+PIX_FMT_NB	ipu/jz47_iputype.h	/^    PIX_FMT_NB,        \/\/\/< number of pixel formats, DO NOT USE THIS if you want to link with shared libav* because the number of formats might differ between versions$/;"	e	enum:PixelFormat
+PIX_FMT_NONE	ipu/jz47_iputype.h	/^    PIX_FMT_NONE= -1,$/;"	e	enum:PixelFormat
+PIX_FMT_NV12	ipu/jz47_iputype.h	/^    PIX_FMT_NV12,      \/\/\/< Planar YUV 4:2:0, 12bpp, 1 plane for Y and 1 for UV$/;"	e	enum:PixelFormat
+PIX_FMT_NV21	ipu/jz47_iputype.h	/^    PIX_FMT_NV21,      \/\/\/< as above, but U and V bytes are swapped$/;"	e	enum:PixelFormat
+PIX_FMT_PAL8	ipu/jz47_iputype.h	/^    PIX_FMT_PAL8,      \/\/\/< 8 bit with PIX_FMT_RGB32 palette$/;"	e	enum:PixelFormat
+PIX_FMT_RGB24	ipu/jz47_iputype.h	/^    PIX_FMT_RGB24,     \/\/\/< Packed RGB 8:8:8, 24bpp, RGBRGB...$/;"	e	enum:PixelFormat
+PIX_FMT_RGB32	ipu/jz47_iputype.h	/^    PIX_FMT_RGB32,     \/\/\/< Packed RGB 8:8:8, 32bpp, (msb)8A 8R 8G 8B(lsb), in cpu endianness$/;"	e	enum:PixelFormat
+PIX_FMT_RGB32_1	ipu/jz47_iputype.h	/^    PIX_FMT_RGB32_1,   \/\/\/< Packed RGB 8:8:8, 32bpp, (msb)8R 8G 8B 8A(lsb), in cpu endianness$/;"	e	enum:PixelFormat
+PIX_FMT_RGB4	ipu/jz47_iputype.h	/^    PIX_FMT_RGB4,      \/\/\/< Packed RGB 1:2:1,  4bpp, (msb)2R 3G 3B(lsb)$/;"	e	enum:PixelFormat
+PIX_FMT_RGB4_BYTE	ipu/jz47_iputype.h	/^    PIX_FMT_RGB4_BYTE, \/\/\/< Packed RGB 1:2:1,  8bpp, (msb)2R 3G 3B(lsb)$/;"	e	enum:PixelFormat
+PIX_FMT_RGB555	ipu/jz47_iputype.h	/^    PIX_FMT_RGB555,    \/\/\/< Packed RGB 5:5:5, 16bpp, (msb)1A 5R 5G 5B(lsb), in cpu endianness most significant bit to 0$/;"	e	enum:PixelFormat
+PIX_FMT_RGB565	ipu/jz47_iputype.h	/^    PIX_FMT_RGB565,    \/\/\/< Packed RGB 5:6:5, 16bpp, (msb)   5R 6G 5B(lsb), in cpu endianness$/;"	e	enum:PixelFormat
+PIX_FMT_RGB8	ipu/jz47_iputype.h	/^    PIX_FMT_RGB8,      \/\/\/< Packed RGB 3:3:2,  8bpp, (msb)2R 3G 3B(lsb)$/;"	e	enum:PixelFormat
+PIX_FMT_RGBA32	ipu/test_ipu.c	402;"	d	file:
+PIX_FMT_RGBA32	ipu/test_ipu.c	623;"	d	file:
+PIX_FMT_UYVY422	ipu/jz47_iputype.h	/^    PIX_FMT_UYVY422,   \/\/\/< Packed YUV 4:2:2, 16bpp, Cb Y0 Cr Y1$/;"	e	enum:PixelFormat
+PIX_FMT_UYYVYY411	ipu/jz47_iputype.h	/^    PIX_FMT_UYYVYY411, \/\/\/< Packed YUV 4:1:1, 12bpp, Cb Y0 Y1 Cr Y2 Y3$/;"	e	enum:PixelFormat
+PIX_FMT_XVMC_MPEG2_IDCT	ipu/jz47_iputype.h	/^    PIX_FMT_XVMC_MPEG2_IDCT,$/;"	e	enum:PixelFormat
+PIX_FMT_XVMC_MPEG2_MC	ipu/jz47_iputype.h	/^    PIX_FMT_XVMC_MPEG2_MC,\/\/\/< XVideo Motion Acceleration via common packet passing(xvmc_render.h)$/;"	e	enum:PixelFormat
+PIX_FMT_YUV410P	ipu/jz47_iputype.h	/^    PIX_FMT_YUV410P,   \/\/\/< Planar YUV 4:1:0,  9bpp, (1 Cr & Cb sample per 4x4 Y samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUV411P	ipu/jz47_iputype.h	/^    PIX_FMT_YUV411P,   \/\/\/< Planar YUV 4:1:1, 12bpp, (1 Cr & Cb sample per 4x1 Y samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUV420P	ipu/jz47_iputype.h	/^    PIX_FMT_YUV420P,   \/\/\/< Planar YUV 4:2:0, 12bpp, (1 Cr & Cb sample per 2x2 Y samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUV422P	ipu/jz47_iputype.h	/^    PIX_FMT_YUV422P,   \/\/\/< Planar YUV 4:2:2, 16bpp, (1 Cr & Cb sample per 2x1 Y samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUV440P	ipu/jz47_iputype.h	/^    PIX_FMT_YUV440P,   \/\/\/< Planar YUV 4:4:0 (1 Cr & Cb sample per 1x2 Y samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUV444P	ipu/jz47_iputype.h	/^    PIX_FMT_YUV444P,   \/\/\/< Planar YUV 4:4:4, 24bpp, (1 Cr & Cb sample per 1x1 Y samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUVA420P	ipu/jz47_iputype.h	/^    PIX_FMT_YUVA420P,  \/\/\/< Planar YUV 4:2:0, 20bpp, (1 Cr & Cb sample per 2x2 Y & A samples)$/;"	e	enum:PixelFormat
+PIX_FMT_YUVJ420P	ipu/jz47_iputype.h	/^    PIX_FMT_YUVJ420P,  \/\/\/< Planar YUV 4:2:0, 12bpp, full scale (jpeg)$/;"	e	enum:PixelFormat
+PIX_FMT_YUVJ422P	ipu/jz47_iputype.h	/^    PIX_FMT_YUVJ422P,  \/\/\/< Planar YUV 4:2:2, 16bpp, full scale (jpeg)$/;"	e	enum:PixelFormat
+PIX_FMT_YUVJ440P	ipu/jz47_iputype.h	/^    PIX_FMT_YUVJ440P,  \/\/\/< Planar YUV 4:4:0 full scale (jpeg)$/;"	e	enum:PixelFormat
+PIX_FMT_YUVJ444P	ipu/jz47_iputype.h	/^    PIX_FMT_YUVJ444P,  \/\/\/< Planar YUV 4:4:4, 24bpp, full scale (jpeg)$/;"	e	enum:PixelFormat
+PIX_FMT_YUYV422	ipu/jz47_iputype.h	/^    PIX_FMT_YUYV422,   \/\/\/< Packed YUV 4:2:2, 16bpp, Y0 Cb Y1 Cr$/;"	e	enum:PixelFormat
+PPM_SUPPORTED	include/jconfig.h	34;"	d
+PREVIEW_FPS	main.c	8;"	d	file:
+PRINT_DISPLAY_INFO	include/preview_display.h	64;"	d
+PROCESS_8_8	ipu/yuv_decode.c	58;"	d	file:
+PROGRESS_REPORT	include/jconfig.h	43;"	d
+PixelFormat	ipu/jz47_iputype.h	/^enum PixelFormat {$/;"	g
+QUANT_1PASS_SUPPORTED	include/jmorecfg.h	293;"	d
+QUANT_2PASS_SUPPORTED	include/jmorecfg.h	294;"	d
+QUANT_QUALITY	include/jpeg.h	/^} QUANT_QUALITY;$/;"	t	typeref:enum:__anon4
+RAW565_BGR	include/format.h	123;"	d
+RAW565_BRG	include/format.h	125;"	d
+RAW565_GBR	include/format.h	121;"	d
+RAW565_GRB	include/format.h	120;"	d
+RAW565_MASK	include/format.h	119;"	d
+RAW565_RBG	include/format.h	124;"	d
+RAW565_RGB	include/format.h	122;"	d
+RAW888_BGR	include/format.h	115;"	d
+RAW888_BRG	include/format.h	117;"	d
+RAW888_GBR	include/format.h	113;"	d
+RAW888_GRB	include/format.h	112;"	d
+RAW888_MASK	include/format.h	111;"	d
+RAW888_RBG	include/format.h	116;"	d
+RAW888_RGB	include/format.h	114;"	d
+REG32	ipu/jz4750_ipu_regops.h	6;"	d
+REG_ADDR_CTRL	ipu/jz4750_ipu_regops.h	58;"	d
+REG_CSC_C0_COEF	ipu/jz4750_ipu_regops.h	50;"	d
+REG_CSC_C1_COEF	ipu/jz4750_ipu_regops.h	51;"	d
+REG_CSC_C2_COEF	ipu/jz4750_ipu_regops.h	52;"	d
+REG_CSC_C3_COEF	ipu/jz4750_ipu_regops.h	53;"	d
+REG_CSC_C4_COEF	ipu/jz4750_ipu_regops.h	54;"	d
+REG_CSC_OFFPARA	ipu/jz4750_ipu_regops.h	57;"	d
+REG_CTRL	ipu/jz4750_ipu_regops.h	37;"	d
+REG_D_FMT	ipu/jz4750_ipu_regops.h	39;"	d
+REG_IN_FM_GS	ipu/jz4750_ipu_regops.h	43;"	d
+REG_IPU_CSC_C1_COEF	ipu/jz4750_ipu.h	64;"	d
+REG_IPU_CSC_C2_COEF	ipu/jz4750_ipu.h	67;"	d
+REG_IPU_CSC_C3_COEF	ipu/jz4750_ipu.h	70;"	d
+REG_IPU_CSC_C4_COEF	ipu/jz4750_ipu.h	73;"	d
+REG_IPU_CSC_CO_COEF	ipu/jz4750_ipu.h	61;"	d
+REG_IPU_CSC_OFSET_PARA	ipu/jz4750_ipu.h	82;"	d
+REG_IPU_CTRL	ipu/jz4750_ipu.h	22;"	d
+REG_IPU_D_FMT	ipu/jz4750_ipu.h	28;"	d
+REG_IPU_HRSZ_LUT_BASE	ipu/jz4750_ipu.h	76;"	d
+REG_IPU_IN_FM_GS	ipu/jz4750_ipu.h	40;"	d
+REG_IPU_OUT_ADDR	ipu/jz4750_ipu.h	49;"	d
+REG_IPU_OUT_GS	ipu/jz4750_ipu.h	52;"	d
+REG_IPU_OUT_PHY_T_ADDR	ipu/jz4750_ipu.h	94;"	d
+REG_IPU_OUT_STRIDE	ipu/jz4750_ipu.h	55;"	d
+REG_IPU_RSZ_COEF_INDEX	ipu/jz4750_ipu.h	58;"	d
+REG_IPU_STATUS	ipu/jz4750_ipu.h	25;"	d
+REG_IPU_UV_STRIDE	ipu/jz4750_ipu.h	46;"	d
+REG_IPU_U_ADDR	ipu/jz4750_ipu.h	34;"	d
+REG_IPU_U_PHY_T_ADDR	ipu/jz4750_ipu.h	88;"	d
+REG_IPU_VRSZ_LUT_BASE	ipu/jz4750_ipu.h	79;"	d
+REG_IPU_V_ADDR	ipu/jz4750_ipu.h	37;"	d
+REG_IPU_V_PHY_T_ADDR	ipu/jz4750_ipu.h	91;"	d
+REG_IPU_Y_ADDR	ipu/jz4750_ipu.h	31;"	d
+REG_IPU_Y_PHY_T_ADDR	ipu/jz4750_ipu.h	85;"	d
+REG_IPU_Y_STRIDE	ipu/jz4750_ipu.h	43;"	d
+REG_OUT_ADDR	ipu/jz4750_ipu_regops.h	46;"	d
+REG_OUT_GS	ipu/jz4750_ipu_regops.h	47;"	d
+REG_OUT_STRIDE	ipu/jz4750_ipu_regops.h	48;"	d
+REG_RSZ_COEF_INDEX	ipu/jz4750_ipu_regops.h	49;"	d
+REG_STATUS	ipu/jz4750_ipu_regops.h	38;"	d
+REG_UV_STRIDE	ipu/jz4750_ipu_regops.h	45;"	d
+REG_U_ADDR	ipu/jz4750_ipu_regops.h	41;"	d
+REG_V_ADDR	ipu/jz4750_ipu_regops.h	42;"	d
+REG_Y_ADDR	ipu/jz4750_ipu_regops.h	40;"	d
+REG_Y_STRIDE	ipu/jz4750_ipu_regops.h	44;"	d
+RGB_BLUE	include/jmorecfg.h	316;"	d
+RGB_GREEN	include/jmorecfg.h	315;"	d
+RGB_PIXELSIZE	include/jmorecfg.h	317;"	d
+RGB_RED	include/jmorecfg.h	314;"	d
+RGB_SIZE	ipu/yuv_decode.c	16;"	d	file:
+RGB_SIZE2	ipu/test_ipu.c	29;"	d	file:
+RIGHT_SHIFT_IS_UNSIGNED	include/jconfig.h	22;"	d
+RLE_SUPPORTED	include/jconfig.h	35;"	d
+Ratio_n2m	ipu/jz47_iputype.h	/^struct Ratio_n2m$/;"	s
+SAVE_MARKERS_SUPPORTED	include/jmorecfg.h	288;"	d
+SENSOR_MODE_CAPTURE	include/jz_cim.h	/^	SENSOR_MODE_CAPTURE,$/;"	e	enum:sensor_mode_t
+SENSOR_MODE_PREVIEW	include/jz_cim.h	/^	SENSOR_MODE_PREVIEW = 0,$/;"	e	enum:sensor_mode_t
+SIGUSR1	ipu/test_ipu.c	809;"	d	file:
+START_N_SFT	ipu/jz4750_ipu_regops.h	119;"	d
+STR_FMT	cim/cim_fmt.c	9;"	d	file:
+SUPPORT_VA	include/format.h	61;"	d
+SUPPORT_VA	include/format.h	64;"	d
+SUPPORT_YUV420	include/format.h	60;"	d
+SUPPORT_YUV420	include/format.h	63;"	d
+Se	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Se	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+Se	include/jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon10
+Sigfunc	include/cim_signal.h	/^typedef	void	Sigfunc(int);$/;"	t
+Ss	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_compress_struct
+Ss	include/jpeglib.h	/^  int Ss, Se, Ah, Al;		\/* progressive JPEG parameters for scan *\/$/;"	m	struct:jpeg_decompress_struct
+Ss	include/jpeglib.h	/^  int Ss, Se;			\/* progressive JPEG spectral selection parms *\/$/;"	m	struct:__anon10
+TARGA_SUPPORTED	include/jconfig.h	36;"	d
+TRUE	include/jmorecfg.h	233;"	d
+TWO_FILE_COMMANDLINE	include/jconfig.h	38;"	d
+UINT16	include/jmorecfg.h	/^typedef unsigned int UINT16;$/;"	t
+UINT16	include/jmorecfg.h	/^typedef unsigned short UINT16;$/;"	t
+UINT8	include/jmorecfg.h	/^typedef char UINT8;$/;"	t
+UINT8	include/jmorecfg.h	/^typedef short UINT8;$/;"	t
+UINT8	include/jmorecfg.h	/^typedef unsigned char UINT8;$/;"	t
+UPSAMPLE_MERGING_SUPPORTED	include/jmorecfg.h	292;"	d
+UPSAMPLE_SCALING_SUPPORTED	include/jmorecfg.h	291;"	d
+USE_LCD	ipu/test_ipu.c	15;"	d	file:
+U_STRIDE	ipu/jz4750_ipu_regops.h	105;"	d
+V4L2_FRM_FMT_PACK	include/jz_cim.h	52;"	d
+V4L2_FRM_FMT_PLANAR	include/jz_cim.h	50;"	d
+V4L2_FRM_FMT_TILE	include/jz_cim.h	51;"	d
+V4L2_PIX_FMT_VYUY	include/format.h	7;"	d
+V4L2_PIX_FMT_YVYU	include/format.h	6;"	d
+VE_IDX_SFT	ipu/jz4750_ipu_regops.h	109;"	d
+VIDIOC_CIM_RW_REG	include/jz_cim.h	47;"	d
+VIDIOC_CIM_SCALE	include/jz_cim.h	48;"	d
+VIDIOC_CIM_S_MEM	include/jz_cim.h	46;"	d
+VRSZ_EN	ipu/jz4750_ipu_regops.h	64;"	d
+VRSZ_LUT_BASE	ipu/jz4750_ipu_regops.h	56;"	d
+V_SCALE_SHIFT	ipu/jz4750_ipu_regops.h	71;"	d
+V_STRIDE	ipu/jz4750_ipu_regops.h	106;"	d
+V_UP_SCALE	ipu/jz4750_ipu_regops.h	69;"	d
+WORD	include/savebmp.h	/^typedef unsigned short	WORD;	\/\/2 Bytes$/;"	t
+W_COEF_MSK	ipu/jz4750_ipu_regops.h	118;"	d
+W_COEF_SFT	ipu/jz4750_ipu_regops.h	117;"	d
+Wsel	ipu/jz47_iputype.h	/^   int outW, outH, Wsel, Hsel;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+X_density	include/jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_compress_struct
+X_density	include/jpeglib.h	/^  UINT16 X_density;		\/* Horizontal pixel density *\/$/;"	m	struct:jpeg_decompress_struct
+Y1	ipu/yuv_decode.c	/^	unsigned char Y1[64];$/;"	m	struct:macroblock	file:
+Y2	ipu/yuv_decode.c	/^	unsigned char Y2[64];$/;"	m	struct:macroblock	file:
+Y3	ipu/yuv_decode.c	/^	unsigned char Y3[64];$/;"	m	struct:macroblock	file:
+Y4	ipu/yuv_decode.c	/^	unsigned char Y4[64];$/;"	m	struct:macroblock	file:
+YCbCr420_FMT	include/format.h	98;"	d
+YCbCr422_CbY0CrY1	include/format.h	92;"	d
+YCbCr422_CbY1CrY0	include/format.h	87;"	d
+YCbCr422_CrY0CbY1	include/format.h	89;"	d
+YCbCr422_CrY1CbY0	include/format.h	90;"	d
+YCbCr422_MASK	include/format.h	85;"	d
+YCbCr422_Y0CbY1Cr	include/format.h	86;"	d
+YCbCr422_Y0CrY1Cb	include/format.h	93;"	d
+YCbCr422_Y1CbY0Cr	include/format.h	91;"	d
+YCbCr422_Y1CrY0Cb	include/format.h	88;"	d
+YCbCr444_MASK	include/format.h	103;"	d
+YCbCr444_UVY	include/format.h	108;"	d
+YCbCr444_UYV	include/format.h	106;"	d
+YCbCr444_VUY	include/format.h	109;"	d
+YCbCr444_VYU	include/format.h	107;"	d
+YCbCr444_YUV	include/format.h	104;"	d
+YCbCr444_YVU	include/format.h	105;"	d
+YUV_CSC_C0	ipu/jz4750_ipu_regops.h	228;"	d
+YUV_CSC_C1	ipu/jz4750_ipu_regops.h	229;"	d
+YUV_CSC_C2	ipu/jz4750_ipu_regops.h	230;"	d
+YUV_CSC_C3	ipu/jz4750_ipu_regops.h	231;"	d
+YUV_CSC_C4	ipu/jz4750_ipu_regops.h	232;"	d
+YUV_CSC_OFFPARA	ipu/jz4750_ipu_regops.h	233;"	d
+YUYV_INFO	include/jpeg.h	/^} YUYV_INFO;$/;"	t	typeref:struct:__anon5
+YUYV_to_RGB565	color_convert/convert_soft_C.c	/^int YUYV_to_RGB565 (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t dstStride)$/;"	f
+YUYV_to_RGB565	color_convert/convert_soft_mxu.c	/^int YUYV_to_RGB565 (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t drtStride )$/;"	f
+YUYV_to_RGB565	convert_soft.c	/^int YUYV_to_RGB565 (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t drtStride )$/;"	f
+YUYV_to_RGB565_zoom	color_convert/convert_soft_C.c	/^int YUYV_to_RGB565_zoom (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t dstStride)$/;"	f
+YUYV_to_RGB565_zoom	color_convert/convert_soft_mxu.c	/^int YUYV_to_RGB565_zoom (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t drtStride )$/;"	f
+YUYV_to_RGB565_zoom	convert_soft.c	/^int YUYV_to_RGB565_zoom (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t drtStride )$/;"	f
+YUYV_to_RGB888	color_convert/convert_soft_C.c	/^int YUYV_to_RGB888 (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t dstStride)$/;"	f
+YUYV_to_RGB888	color_convert/convert_soft_mxu.c	/^int  YUYV_to_RGB888 (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t drtStride )$/;"	f
+YUYV_to_RGB888	convert_soft.c	/^int  YUYV_to_RGB888 (void *src_buf, void *dst_buf, size_t src_height ,size_t src_width, size_t drtStride )$/;"	f
+Y_density	include/jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_compress_struct
+Y_density	include/jpeglib.h	/^  UINT16 Y_density;		\/* Vertical pixel density *\/$/;"	m	struct:jpeg_decompress_struct
+_IPU_H_	ipu/jz4750_ipu_regops.h	4;"	d
+__CIM_FMT_H__	include/format.h	2;"	d
+__CIM_HEADER_H__	include/headers.h	2;"	d
+__CIM_SIGNAL_H__	include/cim_signal.h	2;"	d
+__FRAMEBUFFER_H__	include/framebuffer.h	2;"	d
+__IPU_H__	ipu/ipu.h	2;"	d
+__JPEG_H__	include/jpeg.h	2;"	d
+__JZ4750_IPU_H__	ipu/jz4750_ipu.h	13;"	d
+__JZ_CIM_H__	include/jz_cim.h	13;"	d
+__LINUX__	ipu/test_ipu.c	1;"	d	file:
+__PIXEL_H__	include/pixel.h	2;"	d
+__PREVIEW_DISPLAY_H__	include/preview_display.h	2;"	d
+__SAVEJPEG_H__	include/savejpeg.h	2;"	d
+__SAVE_BMP_H_	include/savebmp.h	2;"	d
+__convert_packed_2_planar	raw/saveraw.c	/^static int __convert_packed_2_planar(FILE *packed_file, FILE *planar_file)$/;"	f	file:
+__s16	include/headers.h	/^typedef signed short	__s16;$/;"	t
+__s16	include/preview_display.h	/^typedef signed short	__s16;$/;"	t
+__s32	include/headers.h	/^typedef signed int	__s32;$/;"	t
+__s32	include/preview_display.h	/^typedef signed int	__s32;$/;"	t
+__s8	include/headers.h	/^typedef signed char	__s8;$/;"	t
+__s8	include/preview_display.h	/^typedef signed char	__s8;$/;"	t
+__u16	include/headers.h	/^typedef unsigned short	__u16;$/;"	t
+__u16	include/preview_display.h	/^typedef unsigned short	__u16;$/;"	t
+__u32	include/headers.h	/^typedef unsigned int	__u32;$/;"	t
+__u32	include/preview_display.h	/^typedef unsigned int	__u32;$/;"	t
+__u8	include/headers.h	/^typedef unsigned char	__u8;$/;"	t
+__u8	include/preview_display.h	/^typedef unsigned char	__u8;$/;"	t
+__u8	jpg/savejpeg.c	7;"	d	file:
+ac_huff_tbl_ptrs	include/jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct
+ac_huff_tbl_ptrs	include/jpeglib.h	/^  JHUFF_TBL * ac_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct
+ac_tbl_no	include/jpeglib.h	/^  int ac_tbl_no;		\/* AC entropy table selector (0..3) *\/$/;"	m	struct:__anon9
+act_h	ipu/jz47_iputype.h	/^  int act_x, act_y, act_w, act_h;   \/\/ IPU actual output w,h and position$/;"	m	struct:JZ47_IPU_MOD
+act_w	ipu/jz47_iputype.h	/^  int act_x, act_y, act_w, act_h;   \/\/ IPU actual output w,h and position$/;"	m	struct:JZ47_IPU_MOD
+act_x	ipu/jz47_iputype.h	/^  int act_x, act_y, act_w, act_h;   \/\/ IPU actual output w,h and position$/;"	m	struct:JZ47_IPU_MOD
+act_y	ipu/jz47_iputype.h	/^  int act_x, act_y, act_w, act_h;   \/\/ IPU actual output w,h and position$/;"	m	struct:JZ47_IPU_MOD
+actual_number_of_colors	include/jpeglib.h	/^  int actual_number_of_colors;	\/* number of entries in use *\/$/;"	m	struct:jpeg_decompress_struct
+addon_message_table	include/jpeglib.h	/^  const char * const * addon_message_table; \/* Non-library errors *\/$/;"	m	struct:jpeg_error_mgr
+alpha	include/pixel.h	/^	__u8 alpha;$/;"	m	struct:bpp32_pixel
+arith_ac_K	include/jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct
+arith_ac_K	include/jpeglib.h	/^  UINT8 arith_ac_K[NUM_ARITH_TBLS]; \/* Kx values for AC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct
+arith_code	include/jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_compress_struct
+arith_code	include/jpeglib.h	/^  boolean arith_code;		\/* TRUE=arithmetic coding, FALSE=Huffman *\/$/;"	m	struct:jpeg_decompress_struct
+arith_dc_L	include/jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct
+arith_dc_L	include/jpeglib.h	/^  UINT8 arith_dc_L[NUM_ARITH_TBLS]; \/* L values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct
+arith_dc_U	include/jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_compress_struct
+arith_dc_U	include/jpeglib.h	/^  UINT8 arith_dc_U[NUM_ARITH_TBLS]; \/* U values for DC arith-coding tables *\/$/;"	m	struct:jpeg_decompress_struct
+b1	include/pixel.h	/^	__u8 b1;$/;"	m	struct:rgb888_sample
+b1	include/pixel.h	/^	__u8 b1;$/;"	m	struct:yuv422_sample
+b1	include/pixel.h	/^	__u8 b1;$/;"	m	struct:yuv444_sample
+b1	include/pixel.h	/^	unsigned short b1:5,$/;"	m	struct:rgb565_sample
+b2	include/pixel.h	/^		b2:6,$/;"	m	struct:rgb565_sample
+b2	include/pixel.h	/^	__u8 b2;$/;"	m	struct:rgb888_sample
+b2	include/pixel.h	/^	__u8 b2;$/;"	m	struct:yuv422_sample
+b2	include/pixel.h	/^	__u8 b2;$/;"	m	struct:yuv444_sample
+b3	include/pixel.h	/^		b3:5;$/;"	m	struct:rgb565_sample
+b3	include/pixel.h	/^	__u8 b3;$/;"	m	struct:rgb888_sample
+b3	include/pixel.h	/^	__u8 b3;$/;"	m	struct:yuv422_sample
+b3	include/pixel.h	/^	__u8 b3;$/;"	m	struct:yuv444_sample
+b4	include/pixel.h	/^	__u8 b4;$/;"	m	struct:yuv422_sample
+bfReserved1	include/savebmp.h	/^	unsigned short	bfReserved1;	\/* *\/$/;"	m	struct:__anon2
+bfReserved2	include/savebmp.h	/^	unsigned short	bfReserved2;	\/* *\/$/;"	m	struct:__anon2
+bfSize	include/savebmp.h	/^	unsigned long	bfSize;		\/*  *\/$/;"	m	struct:__anon2
+bfType	include/savebmp.h	/^	unsigned short	bfType;		\/* "BM"(0x4D42) *\/$/;"	m	struct:__anon2
+bfile	bmp/savebmp.c	/^BITMAPFILEHEADER  bfile = {$/;"	v
+bfoffBits	include/savebmp.h	/^	unsigned long	bfoffBits;$/;"	m	struct:__anon2
+biBitCount	include/savebmp.h	/^	unsigned short  biBitCount;	\/*   Ã¿¸öÏñËØµÄÎ»Êý,   1,4,8»ò24   *\/$/;"	m	struct:__anon3
+biClrImportant	include/savebmp.h	/^	unsigned long   biClrImportant;$/;"	m	struct:__anon3
+biClrUsed	include/savebmp.h	/^	unsigned long   biClrUsed;		\/*   Î»Í¼Êµ¼ÊÊ¹ÓÃµÄÑÕÉ«±íµÄÑÕÉ«Êý   *\/$/;"	m	struct:__anon3
+biCompress	include/savebmp.h	/^	unsigned long   biCompress;	\/*   Î»Í¼ÕóÁÐµÄÑ¹Ëõ·½·¨,0=²»Ñ¹Ëõ   *\/$/;"	m	struct:__anon3
+biHeight	include/savebmp.h	/^	unsigned long   biHeight;	\/*   Î»Í¼¸ß¶È(ÏñËØ)   *\/$/;"	m	struct:__anon3
+biPlanes	include/savebmp.h	/^	unsigned short  biPlanes;	\/*   Ä¿±êÉè±¸µÄÎ»Æ½ÃæÊý,   ±ØÐëÖÃÎª1   *\/$/;"	m	struct:__anon3
+biSize	include/savebmp.h	/^	unsigned long   biSize;		\/*   size   of   BITMAPINFOHEADER   *\/$/;"	m	struct:__anon3
+biSizeImage	include/savebmp.h	/^	unsigned long   biSizeImage;	\/*   Í¼Ïñ´óÐ¡(×Ö½Ú)   *\/$/;"	m	struct:__anon3
+biWidth	include/savebmp.h	/^	unsigned long   biWidth;	\/*   Î»Í¼¿í¶È(ÏñËØ)   *\/$/;"	m	struct:__anon3
+biXPelsPerMeter	include/savebmp.h	/^	unsigned long   biXPelsPerMeter;	\/*   Ä¿±êÉè±¸Ë®Æ½Ã¿Ã×ÏñËØ¸öÊý   *\/$/;"	m	struct:__anon3
+biYPelsPerMeter	include/savebmp.h	/^	unsigned long   biYPelsPerMeter;	\/*   Ä¿±êÉè±¸´¹Ö±Ã¿Ã×ÏñËØ¸öÊý   *\/$/;"	m	struct:__anon3
+binfo	bmp/savebmp.c	/^BITMAPINFOHEADER  binfo = {$/;"	v
+bits	include/jpeglib.h	/^  UINT8 bits[17];		\/* bits[k] = # of symbols with codes of *\/$/;"	m	struct:__anon8
+blocks_in_MCU	include/jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_compress_struct
+blocks_in_MCU	include/jpeglib.h	/^  int blocks_in_MCU;		\/* # of DCT blocks per MCU *\/$/;"	m	struct:jpeg_decompress_struct
+blue	include/pixel.h	/^	__u8 blue;$/;"	m	struct:bpp24_pixel
+blue	include/pixel.h	/^	__u8 blue;$/;"	m	struct:bpp32_pixel
+blue	include/pixel.h	/^	unsigned short blue:5;$/;"	m	struct:bpp16_pixel
+blue	include/savebmp.h	/^	__u8 blue;$/;"	m	struct:bmp_bgr
+bmp_bgr	include/savebmp.h	/^struct bmp_bgr {$/;"	s
+boolean	include/jmorecfg.h	/^typedef int boolean;$/;"	t
+bpp	include/framebuffer.h	/^	int bpp;$/;"	m	struct:fb_info
+bpp	include/jz_cim.h	/^	unsigned int 	bpp;$/;"	m	struct:resolution_info
+bpp	include/preview_display.h	/^	__u32 bpp;$/;"	m	struct:display_info
+bpp16_pixel	include/pixel.h	/^struct bpp16_pixel {$/;"	s
+bpp24_pixel	include/pixel.h	/^struct bpp24_pixel {$/;"	s
+bpp32_pixel	include/pixel.h	/^struct bpp32_pixel {$/;"	s
+bpp_byte	ipu/jz47_iputype.h	/^    int bpp_byte;$/;"	m	struct:JZ47_IPU_MOD::IPU_output_panel
+bslen	include/jpeg.h	/^	int bslen;$/;"	m	struct:__anon5
+buf	include/jpeg.h	/^	uint8_t *buf;$/;"	m	struct:__anon5
+buffer	cim/video.c	/^struct buffer {$/;"	s	file:
+buffered_image	include/jpeglib.h	/^  boolean buffered_image;	\/* TRUE=multiple output passes *\/$/;"	m	struct:jpeg_decompress_struct
+buffers	cim/video.c	/^struct buffer *		buffers		= NULL;$/;"	v	typeref:struct:buffer
+bus_width	include/jz_cim.h	/^	int			bus_width;	\/* 8-bit I\/O *\/$/;"	m	struct:jz_sensor_desc
+bytes_in_buffer	include/jpeglib.h	/^  size_t bytes_in_buffer;	\/* # of bytes remaining in buffer *\/$/;"	m	struct:jpeg_source_mgr
+bytes_per_line	ipu/jz47_iputype.h	/^    int w, h, bytes_per_line;$/;"	m	struct:JZ47_IPU_MOD::IPU_output_panel
+calc_frame_size	raw/saveraw.c	/^static int calc_frame_size(__u32 width, __u32 height, int fmt)$/;"	f	file:
+camera_fill_buffer	include/jz_cim.h	/^	int (*camera_fill_buffer)(struct jz_sensor_desc *desc, unsigned int addr);$/;"	m	struct:jz_sensor_ops
+cap_h	include/jz_cim.h	/^	int cap_h;$/;"	m	struct:cim_scale
+cap_res	include/jz_cim.h	/^	struct resolution_info	cap_res;	\/* capture *\/$/;"	m	struct:jz_sensor_desc	typeref:struct:jz_sensor_desc::resolution_info
+cap_w	include/jz_cim.h	/^	int cap_w;	\/\/capture$/;"	m	struct:cim_scale
+cconvert	include/jpeglib.h	/^  struct jpeg_color_converter * cconvert;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_color_converter
+cconvert	include/jpeglib.h	/^  struct jpeg_color_deconverter * cconvert;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_deconverter
+chip_en	ipu/jz4750_ipu.h	/^		__u32   chip_en:1,$/;"	m	struct:jzipu_config::__anon20
+cim_buf_info	include/jz_cim.h	/^struct cim_buf_info {$/;"	s
+cim_dbg	include/headers.h	43;"	d
+cim_dbg	include/headers.h	45;"	d
+cim_do_scale	cim/scale.c	/^int cim_do_scale(int fd, int argc, char **argv, struct cim_scale *s, int format, $/;"	f
+cim_do_test	cim/regs.c	/^int cim_do_test(int fd, int argc, char **argv)$/;"	f
+cim_get_fmt_priv	include/jz_cim.h	63;"	d
+cim_id	include/jz_cim.h	/^	int			cim_id;		\/* the host controller the sensor is attached to *\/$/;"	m	struct:jz_sensor_desc
+cim_id	include/jz_cim.h	/^	int	cim_id;$/;"	m	struct:jz_sensor_platform_data
+cim_reg_info	include/jz_cim.h	/^struct cim_reg_info {$/;"	s
+cim_scale	include/jz_cim.h	/^struct cim_scale {$/;"	s
+cim_set_fmt_priv	include/jz_cim.h	60;"	d
+cim_signal	signal.c	/^Sigfunc *cim_signal(int signo, Sigfunc *func)$/;"	f
+cim_yuv422_formats	main.c	/^__u32 cim_yuv422_formats[8] = {$/;"	v
+clear_end_flag	ipu/jz4750_ipu_regops.h	207;"	d
+client	include/jz_cim.h	/^	struct i2c_client	*client;$/;"	m	struct:jz_sensor_desc	typeref:struct:jz_sensor_desc::i2c_client
+coef	include/jpeglib.h	/^  struct jpeg_c_coef_controller * coef;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_coef_controller
+coef	include/jpeglib.h	/^  struct jpeg_d_coef_controller * coef;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_coef_controller
+coef_bits	include/jpeglib.h	/^  int (*coef_bits)[DCTSIZE2];	\/* -1 or current Al value for each coef *\/$/;"	m	struct:jpeg_decompress_struct
+colormap	include/jpeglib.h	/^  JSAMPARRAY colormap;		\/* The color map as a 2-D pixel array *\/$/;"	m	struct:jpeg_decompress_struct
+comp_info	include/jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_compress_struct
+comp_info	include/jpeglib.h	/^  jpeg_component_info * comp_info;$/;"	m	struct:jpeg_decompress_struct
+completed_passes	include/jpeglib.h	/^  int completed_passes;		\/* passes completed so far *\/$/;"	m	struct:jpeg_progress_mgr
+component_id	include/jpeglib.h	/^  int component_id;		\/* identifier for this component (0..255) *\/$/;"	m	struct:__anon9
+component_index	include/jpeglib.h	/^  int component_index;		\/* its index in SOF or cinfo->comp_info[] *\/$/;"	m	struct:__anon9
+component_index	include/jpeglib.h	/^  int component_index[MAX_COMPS_IN_SCAN]; \/* their SOF\/comp_info[] indexes *\/$/;"	m	struct:__anon10
+component_needed	include/jpeglib.h	/^  boolean component_needed;	\/* do we need the value of this component? *\/$/;"	m	struct:__anon9
+comps_in_scan	include/jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_compress_struct
+comps_in_scan	include/jpeglib.h	/^  int comps_in_scan;		\/* # of JPEG components in this scan *\/$/;"	m	struct:jpeg_decompress_struct
+comps_in_scan	include/jpeglib.h	/^  int comps_in_scan;		\/* number of components encoded in this scan *\/$/;"	m	struct:__anon10
+config	ipu/test_ipu.c	/^static struct jzipu_config config;$/;"	v	typeref:struct:jzipu_config	file:
+console_fd	ipu/test_ipu.c	/^static int console_fd = -1;$/;"	v	file:
+const	include/jconfig.h	9;"	d
+convert_packed_2_planar	raw/saveraw.c	/^int convert_packed_2_planar(char *filename)$/;"	f
+convert_yuv_to_rgb24	bmp/savebmp.c	/^int convert_yuv_to_rgb24(__u8 *frame, __u8 *rgb, struct display_info *dis)$/;"	f
+count	main.c	/^int count = 0;$/;"	v
+cquantize	include/jpeglib.h	/^  struct jpeg_color_quantizer * cquantize;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_color_quantizer
+crop_h	include/preview_display.h	/^	__u32 crop_h;$/;"	m	struct:display_info
+crop_w	include/preview_display.h	/^	__u32 crop_w;$/;"	m	struct:display_info
+crop_x	include/preview_display.h	/^	__u32 crop_x;$/;"	m	struct:display_info
+crop_y	include/preview_display.h	/^	__u32 crop_y;$/;"	m	struct:display_info
+csc_en	ipu/jz4750_ipu.h	/^			csc_en:1,  \/* CSC enable. 1: enable, 0: disable  *\/$/;"	m	struct:jzipu_config::__anon20
+ctrl	ipu/jz4750_ipu.h	/^	} ctrl;$/;"	m	struct:jzipu_config	typeref:struct:jzipu_config::__anon20
+cur_comp_info	include/jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_compress_struct
+cur_comp_info	include/jpeglib.h	/^  jpeg_component_info * cur_comp_info[MAX_COMPS_IN_SCAN];$/;"	m	struct:jpeg_decompress_struct
+data	include/jpeglib.h	/^  JOCTET FAR * data;		\/* the data contained in the marker *\/$/;"	m	struct:jpeg_marker_struct
+data_length	include/jpeglib.h	/^  unsigned int data_length;	\/* # bytes of data saved at data[] *\/$/;"	m	struct:jpeg_marker_struct
+data_precision	include/jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_compress_struct
+data_precision	include/jpeglib.h	/^  int data_precision;		\/* bits of precision in image data *\/$/;"	m	struct:jpeg_decompress_struct
+dc_huff_tbl_ptrs	include/jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_compress_struct
+dc_huff_tbl_ptrs	include/jpeglib.h	/^  JHUFF_TBL * dc_huff_tbl_ptrs[NUM_HUFF_TBLS];$/;"	m	struct:jpeg_decompress_struct
+dc_tbl_no	include/jpeglib.h	/^  int dc_tbl_no;		\/* DC entropy table selector (0..3) *\/$/;"	m	struct:__anon9
+dcache	ipu/test_ipu.c	/^unsigned int dcache[4096];$/;"	v
+dct_method	include/jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* DCT algorithm selector *\/$/;"	m	struct:jpeg_compress_struct
+dct_method	include/jpeglib.h	/^  J_DCT_METHOD dct_method;	\/* IDCT algorithm selector *\/$/;"	m	struct:jpeg_decompress_struct
+dct_table	include/jpeglib.h	/^  void * dct_table;$/;"	m	struct:__anon9
+debug_level	main.c	/^int debug_level = 0;$/;"	v
+deinit_lcd_ctrl_fbfd	ipu/test_ipu.c	/^static void deinit_lcd_ctrl_fbfd ()$/;"	f	file:
+density_unit	include/jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_compress_struct
+density_unit	include/jpeglib.h	/^  UINT8 density_unit;		\/* JFIF code for pixel size units *\/$/;"	m	struct:jpeg_decompress_struct
+des_pa	include/jpeg.h	/^	uint32_t *des_pa;	\/* descriptor physical address *\/$/;"	m	struct:__anon5
+des_va	include/jpeg.h	/^	uint32_t *des_va;	\/* descriptor virtual address *\/$/;"	m	struct:__anon5
+desired_number_of_colors	include/jpeglib.h	/^  int desired_number_of_colors;	\/* max # colors to use in created colormap *\/$/;"	m	struct:jpeg_decompress_struct
+dest	include/jpeglib.h	/^  struct jpeg_destination_mgr * dest;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_destination_mgr
+dev_name	cim/video.c	/^static char *		dev_name	= NULL;$/;"	v	file:
+dev_name	include/framebuffer.h	/^	char dev_name[32];$/;"	m	struct:fb_info
+dfix_sel	ipu/jz4750_ipu.h	/^			dfix_sel:1,$/;"	m	struct:jzipu_config::__anon20
+disable_ipu_addrsel	ipu/jz4750_ipu_regops.h	134;"	d
+disable_ipu_direct	ipu/jz4750_ipu_regops.h	140;"	d
+disable_irq	ipu/jz4750_ipu_regops.h	191;"	d
+disable_rsize	ipu/jz4750_ipu_regops.h	194;"	d
+disp_info	main.c	/^static struct display_info disp_info;$/;"	v	typeref:struct:display_info	file:
+disp_sel	ipu/jz4750_ipu.h	/^			disp_sel:1,$/;"	m	struct:jzipu_config::__anon20
+display_direct_to_fb	lcd/framebuffer.c	/^int display_direct_to_fb(__u8 *frame, struct display_info *dis, struct fb_info *fb)$/;"	f
+display_info	include/preview_display.h	/^struct display_info$/;"	s
+display_to_fb	lcd/framebuffer.c	/^int display_to_fb(__u8 *frame, struct display_info *dis, struct fb_info *fb)$/;"	f
+dither_mode	include/jpeglib.h	/^  J_DITHER_MODE dither_mode;	\/* type of color dithering to use *\/$/;"	m	struct:jpeg_decompress_struct
+do_block_smoothing	include/jpeglib.h	/^  boolean do_block_smoothing;	\/* TRUE=apply interblock smoothing *\/$/;"	m	struct:jpeg_decompress_struct
+do_capture	main.c	/^int do_capture = 0;$/;"	v
+do_cleanup	main.c	/^void do_cleanup(int do_test, int ret)$/;"	f
+do_crop	include/preview_display.h	/^	__u32 do_crop;$/;"	m	struct:display_info
+do_fancy_upsampling	include/jpeglib.h	/^  boolean do_fancy_upsampling;	\/* TRUE=apply fancy upsampling *\/$/;"	m	struct:jpeg_decompress_struct
+do_preview	main.c	/^int do_preview = 0;$/;"	v
+downsample	include/jpeglib.h	/^  struct jpeg_downsampler * downsample;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_downsampler
+downsampled_height	include/jpeglib.h	/^  JDIMENSION downsampled_height; \/* actual height in samples *\/$/;"	m	struct:__anon9
+downsampled_width	include/jpeglib.h	/^  JDIMENSION downsampled_width;	 \/* actual width in samples *\/$/;"	m	struct:__anon9
+dpage_map	ipu/jz4750_ipu.h	/^			dpage_map:1,$/;"	m	struct:jzipu_config::__anon20
+dummy	include/jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	m	struct:jpeg_c_coef_controller
+dummy	include/jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	m	struct:jpeg_c_main_controller
+dummy	include/jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	m	struct:jpeg_c_prep_controller
+dummy	include/jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	m	struct:jpeg_color_converter
+dummy	include/jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	m	struct:jpeg_color_deconverter
+dummy	include/jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	m	struct:jpeg_color_quantizer
+dummy	include/jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	m	struct:jpeg_comp_master
+dummy	include/jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	m	struct:jpeg_d_coef_controller
+dummy	include/jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	m	struct:jpeg_d_main_controller
+dummy	include/jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	m	struct:jpeg_d_post_controller
+dummy	include/jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	m	struct:jpeg_decomp_master
+dummy	include/jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	m	struct:jpeg_downsampler
+dummy	include/jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	m	struct:jpeg_entropy_decoder
+dummy	include/jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	m	struct:jpeg_entropy_encoder
+dummy	include/jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	m	struct:jpeg_forward_dct
+dummy	include/jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	m	struct:jpeg_input_controller
+dummy	include/jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	m	struct:jpeg_inverse_dct
+dummy	include/jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	m	struct:jpeg_marker_reader
+dummy	include/jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	m	struct:jpeg_marker_writer
+dummy	include/jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	m	struct:jpeg_upsampler
+dummy	include/jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	m	struct:jvirt_barray_control
+dummy	include/jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	m	struct:jvirt_sarray_control
+dump_fmt	cim/video.c	/^static void dump_fmt(struct v4l2_format *fmt)$/;"	f	file:
+enable_1pass_quant	include/jpeglib.h	/^  boolean enable_1pass_quant;	\/* enable future use of 1-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct
+enable_2pass_quant	include/jpeglib.h	/^  boolean enable_2pass_quant;	\/* enable future use of 2-pass quantizer *\/$/;"	m	struct:jpeg_decompress_struct
+enable_external_quant	include/jpeglib.h	/^  boolean enable_external_quant;\/* enable future use of external colormap *\/$/;"	m	struct:jpeg_decompress_struct
+enable_hrsize	ipu/jz4750_ipu_regops.h	197;"	d
+enable_ipu	ipu/jz4750_ipu_regops.h	143;"	d
+enable_ipu_addrsel	ipu/jz4750_ipu_regops.h	128;"	d
+enable_ipu_direct	ipu/jz4750_ipu_regops.h	137;"	d
+enable_vrsize	ipu/jz4750_ipu_regops.h	200;"	d
+enable_yuv_ready	ipu/jz4750_ipu_regops.h	131;"	d
+endtime	main.c	/^unsigned long long starttime,endtime;$/;"	v
+entropy	include/jpeglib.h	/^  struct jpeg_entropy_decoder * entropy;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_entropy_decoder
+entropy	include/jpeglib.h	/^  struct jpeg_entropy_encoder * entropy;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_entropy_encoder
+errno_exit	cim/video.c	/^static void errno_exit(const char *s)$/;"	f	file:
+fb_dev_name	main.c	/^const char *fb_dev_name = "\/dev\/fb0";$/;"	v
+fb_info	include/framebuffer.h	/^struct fb_info {$/;"	s
+fb_info	main.c	/^static struct fb_info fb_info;$/;"	v	typeref:struct:fb_info	file:
+fb_mem	include/framebuffer.h	/^	__u8 *fb_mem;$/;"	m	struct:fb_info
+fb_set_a_pixel	lcd/framebuffer.c	/^void fb_set_a_pixel(struct fb_info *fb_info, int line, int col,$/;"	f
+fbfd	ipu/test_ipu.c	/^static int fbfd = -1;$/;"	v	file:
+fd	cim/video.c	/^static int		fd		= -1;$/;"	v	file:
+fd	include/framebuffer.h	/^	int fd;$/;"	m	struct:fb_info
+fd_cim	main.c	/^static int fd_cim = -1;$/;"	v	file:
+fdct	include/jpeglib.h	/^  struct jpeg_forward_dct * fdct;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_forward_dct
+field_conf_en	ipu/jz4750_ipu.h	/^			field_conf_en:1,$/;"	m	struct:jzipu_config::__anon20
+field_sel	ipu/jz4750_ipu.h	/^			field_sel:1,$/;"	m	struct:jzipu_config::__anon20
+filename	main.c	/^char filename[64];$/;"	v
+find_ipu_ratio_factor	ipu/jz47_soc_rsize.c	/^int find_ipu_ratio_factor (float ratio, int lut_len)$/;"	f
+fini_console	ipu/test_ipu.c	/^static void fini_console() {$/;"	f	file:
+fini_env	ipu/test_ipu.c	/^static void fini_env()$/;"	f	file:
+finish_framebuffer	lcd/framebuffer.c	/^void finish_framebuffer(struct fb_info *fb)$/;"	f
+first_addon_message	include/jpeglib.h	/^  int first_addon_message;	\/* code for first string in addon table *\/$/;"	m	struct:jpeg_error_mgr
+fmt	include/preview_display.h	/^	} fmt;$/;"	m	struct:display_info	typeref:struct:display_info::__anon6
+fmt	ipu/jz4750_ipu.h	/^		__u8	fmt;$/;"	m	struct:jzipu_config::__anon21
+fmt	ipu/jz4750_ipu.h	/^		__u8	fmt;$/;"	m	struct:jzipu_config::__anon23
+fmt_priv	include/preview_display.h	/^		__u32 fmt_priv;	\/\/ CIMCFG.PACK & CIMCFG.SEP && CIMCR.MBEN$/;"	m	struct:display_info::__anon6
+format	cim/cim_fmt.c	/^	__u32 format;$/;"	m	struct:str_fmt	file:
+format	include/preview_display.h	/^		__u32 format;	\/\/ local definition, more detail$/;"	m	struct:display_info::__anon6
+fourcc	include/jz_cim.h	/^	u32			fourcc;		\/* sensor output format *\/$/;"	m	struct:jz_sensor_desc
+fourcc	include/preview_display.h	/^		__u32 fourcc;	\/\/ compatible with V4L2$/;"	m	struct:display_info::__anon6
+frame_handler	cim/video.c	/^static hand_t frame_handler;$/;"	v	file:
+frame_handler_init	cim/video.c	/^void frame_handler_init(void *handle)$/;"	f
+free_in_buffer	include/jpeglib.h	/^  size_t free_in_buffer;	\/* # of byte spaces remaining in buffer *\/$/;"	m	struct:jpeg_destination_mgr
+fs_resize	cim/scale.c	/^static unsigned int fs_resize(int fmt, int size, int ratio, int ignore)$/;"	f	file:
+get_phy_addr	ipu/jz47_soc_mem.c	/^unsigned int get_phy_addr (unsigned int vaddr)$/;"	f
+green	include/pixel.h	/^	__u8 green;$/;"	m	struct:bpp24_pixel
+green	include/pixel.h	/^	__u8 green;$/;"	m	struct:bpp32_pixel
+green	include/pixel.h	/^	unsigned short green:6;$/;"	m	struct:bpp16_pixel
+green	include/savebmp.h	/^	__u8 green;$/;"	m	struct:bmp_bgr
+h	ipu/jz47_iputype.h	/^    int w, h, bytes_per_line;$/;"	m	struct:JZ47_IPU_MOD::IPU_output_panel
+h_samp_factor	include/jpeglib.h	/^  int h_samp_factor;		\/* horizontal sampling factor (1..4) *\/$/;"	m	struct:__anon9
+h_scale	ipu/jz4750_ipu.h	/^			h_scale:1, \/* horizon scale. 1: up scaling, 0: down scaling *\/$/;"	m	struct:jzipu_config::__anon20
+hand_t	cim/video.c	/^typedef  int (*hand_t)(void *buf);$/;"	t	file:
+handle_bufs	main.c	/^static int handle_bufs(void *tmp_buf)$/;"	f	file:
+height	include/jpeg.h	/^	int height;$/;"	m	struct:__anon5
+height	include/jz_cim.h	/^	unsigned int 	height;$/;"	m	struct:resolution_info
+height	include/preview_display.h	/^	__u32 height;$/;"	m	struct:display_info
+height	ipu/jz4750_ipu.h	/^		__u16	height;$/;"	m	struct:jzipu_config::__anon21
+height	ipu/jz4750_ipu.h	/^		__u16	height;$/;"	m	struct:jzipu_config::__anon23
+height_in_blocks	include/jpeglib.h	/^  JDIMENSION height_in_blocks;$/;"	m	struct:__anon9
+height_lut_coef	ipu/jz4750_ipu.h	/^		unsigned int	height_lut_coef [IPU_LUT_LEN];$/;"	m	struct:jzipu_config::__anon22
+height_lut_coef	ipu/jz47_iputype.h	/^   unsigned int height_lut_coef [IPU_LUT_LEN];$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+height_lut_size	ipu/jz4750_ipu.h	/^		int	height_lut_size;$/;"	m	struct:jzipu_config::__anon22
+height_lut_size	ipu/jz47_iputype.h	/^   int width_lut_size, height_lut_size;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+height_resize_enable	ipu/jz47_iputype.h	/^   int width_up, height_up, width_resize_enable, height_resize_enable;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+height_up	ipu/jz47_iputype.h	/^   int width_up, height_up, width_resize_enable, height_resize_enable;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+hrsz_en	ipu/jz4750_ipu.h	/^			hrsz_en:1, \/* horizon resize. 1: enable, 0: disable *\/$/;"	m	struct:jzipu_config::__anon20
+hs	include/jz_cim.h	/^	int hs;		\/\/horizontical scale$/;"	m	struct:cim_scale
+htoi	misc.c	/^unsigned int htoi(char *s)$/;"	f
+huffval	include/jpeglib.h	/^  UINT8 huffval[256];		\/* The symbols, in order of incr code length *\/$/;"	m	struct:__anon8
+i	include/jpeglib.h	/^    int i[8];$/;"	m	union:jpeg_error_mgr::__anon14
+i2c_clk	include/jz_cim.h	/^	unsigned int		i2c_clk;	\/* I2C bus clock frequency *\/$/;"	m	struct:jz_sensor_desc
+i_pref	color_convert/convert_soft_mxu.c	23;"	d	file:
+i_pref	convert_soft.c	23;"	d	file:
+idct	include/jpeglib.h	/^  struct jpeg_inverse_dct * idct;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_inverse_dct
+ignore	include/jz_cim.h	/^	int ignore;	\/\/ignore reminder or not$/;"	m	struct:cim_scale
+image_height	include/jpeglib.h	/^  JDIMENSION image_height;	\/* input image height *\/$/;"	m	struct:jpeg_compress_struct
+image_height	include/jpeglib.h	/^  JDIMENSION image_height;	\/* nominal image height *\/$/;"	m	struct:jpeg_decompress_struct
+image_width	include/jpeglib.h	/^  JDIMENSION image_width;	\/* input image width *\/$/;"	m	struct:jpeg_compress_struct
+image_width	include/jpeglib.h	/^  JDIMENSION image_width;	\/* nominal image width (from SOF marker) *\/$/;"	m	struct:jpeg_decompress_struct
+imem_info	ipu/jz47_soc_mem.c	/^} imem_info[4] = {{"\/proc\/jz\/imem", 9\/*16M*\/, 0x0},$/;"	v	typeref:struct:IMEM_INFO
+in_color_space	include/jpeglib.h	/^  J_COLOR_SPACE in_color_space;	\/* colorspace of input image *\/$/;"	m	struct:jpeg_compress_struct
+init_device	cim/video.c	/^void init_device(struct display_info *disp)$/;"	f
+init_framebuffer	lcd/framebuffer.c	/^void init_framebuffer(struct fb_info *fb_info)$/;"	f
+init_ipu_env	ipu/test_ipu.c	/^int init_ipu_env()$/;"	f
+init_lcd_ctrl_fbfd	ipu/test_ipu.c	/^static int init_lcd_ctrl_fbfd ()$/;"	f	file:
+init_mmap	cim/video.c	/^static void init_mmap(void)$/;"	f	file:
+init_read	cim/video.c	/^static void init_read(unsigned int buffer_size)$/;"	f	file:
+init_userp	cim/video.c	/^static void init_userp(unsigned int buffer_size)$/;"	f	file:
+input	ipu/jz4750_ipu.h	/^	} input;$/;"	m	struct:jzipu_config	typeref:struct:jzipu_config::__anon21
+input_components	include/jpeglib.h	/^  int input_components;		\/* # of color components in input image *\/$/;"	m	struct:jpeg_compress_struct
+input_gamma	include/jpeglib.h	/^  double input_gamma;		\/* image gamma of input image *\/$/;"	m	struct:jpeg_compress_struct
+input_iMCU_row	include/jpeglib.h	/^  JDIMENSION input_iMCU_row;	\/* Number of iMCU rows completed *\/$/;"	m	struct:jpeg_decompress_struct
+input_scan_number	include/jpeglib.h	/^  int input_scan_number;	\/* Number of SOS markers seen so far *\/$/;"	m	struct:jpeg_decompress_struct
+inputctl	include/jpeglib.h	/^  struct jpeg_input_controller * inputctl;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_input_controller
+io	cim/video.c	/^static io_method	io		= IO_METHOD_MMAP;$/;"	v	file:
+io_method	cim/video.c	/^} io_method;$/;"	t	typeref:enum:__anon1	file:
+io_method_str	cim/video.c	/^static char *io_method_str[3] = {$/;"	v	file:
+ipu	include/preview_display.h	/^		ipu	: 1,	\/\/use IPU or not$/;"	m	struct:display_info
+ipu_disable	ipu/jz4750_ipu_regops.h	149;"	d
+ipu_enable	ipu/jz4750_ipu_regops.h	146;"	d
+ipu_fbfd	ipu/test_ipu.c	/^static int ipu_fbfd = 0;$/;"	v	file:
+ipu_image_completed	ipu/test_ipu.c	/^int ipu_image_completed = 0;$/;"	v
+ipu_is_enable	ipu/jz4750_ipu_regops.h	152;"	d
+ipu_is_run	ipu/jz4750_ipu_regops.h	203;"	d
+ipu_ratio_table	ipu/jz47_soc_rsize.c	/^static struct Ratio_n2m ipu_ratio_table[486] = {$/;"	v	typeref:struct:Ratio_n2m	file:
+ipu_reg_val	ipu/jz4750_ipu_regops.h	171;"	d
+ipu_regs_name	ipu/test_ipu.c	/^static char *ipu_regs_name[] = {$/;"	v	file:
+ipu_rst	ipu/jz4750_ipu.h	/^			ipu_rst:1,$/;"	m	struct:jzipu_config::__anon20
+ipu_run	ipu/jz4750_ipu.h	/^			ipu_run:1,$/;"	m	struct:jzipu_config::__anon20
+ipu_vbase	ipu/test_ipu.c	/^volatile unsigned char *ipu_vbase=NULL;$/;"	v
+ipu_working_mode	ipu/jz47_iputype.h	/^  int ipu_working_mode;$/;"	m	struct:JZ47_IPU_MOD
+ipufd	ipu/test_ipu.c	/^static int ipufd = -1;$/;"	v	file:
+irq_en	ipu/jz4750_ipu.h	/^			irq_en:1,$/;"	m	struct:jzipu_config::__anon20
+itu656_rearrange	jpg/savejpeg.c	/^int itu656_rearrange(__u8 *src, __u8 *dest, int fmt, int width, int height)$/;"	f
+itu656_rearrange	jpg/savejpeg_bak.c	/^int itu656_rearrange(__u8 *src, __u8 *dest, int fmt, int width, int height)$/;"	f
+j_common_ptr	include/jpeglib.h	/^typedef struct jpeg_common_struct * j_common_ptr;$/;"	t	typeref:struct:jpeg_common_struct
+j_compress_ptr	include/jpeglib.h	/^typedef struct jpeg_compress_struct * j_compress_ptr;$/;"	t	typeref:struct:jpeg_compress_struct
+j_decompress_ptr	include/jpeglib.h	/^typedef struct jpeg_decompress_struct * j_decompress_ptr;$/;"	t	typeref:struct:jpeg_decompress_struct
+jpeg_CreateCompress	include/jpeglib.h	833;"	d
+jpeg_CreateDecompress	include/jpeglib.h	834;"	d
+jpeg_abort	include/jpeglib.h	877;"	d
+jpeg_abort_compress	include/jpeglib.h	875;"	d
+jpeg_abort_decompress	include/jpeglib.h	876;"	d
+jpeg_add_quant_table	include/jpeglib.h	844;"	d
+jpeg_alloc_huff_table	include/jpeglib.h	849;"	d
+jpeg_alloc_quant_table	include/jpeglib.h	848;"	d
+jpeg_c_coef_controller	include/jpeglib.h	/^struct jpeg_c_coef_controller { long dummy; };$/;"	s
+jpeg_c_main_controller	include/jpeglib.h	/^struct jpeg_c_main_controller { long dummy; };$/;"	s
+jpeg_c_prep_controller	include/jpeglib.h	/^struct jpeg_c_prep_controller { long dummy; };$/;"	s
+jpeg_calc_output_dimensions	include/jpeglib.h	869;"	d
+jpeg_color_converter	include/jpeglib.h	/^struct jpeg_color_converter { long dummy; };$/;"	s
+jpeg_color_deconverter	include/jpeglib.h	/^struct jpeg_color_deconverter { long dummy; };$/;"	s
+jpeg_color_quantizer	include/jpeglib.h	/^struct jpeg_color_quantizer { long dummy; };$/;"	s
+jpeg_color_space	include/jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_compress_struct
+jpeg_color_space	include/jpeglib.h	/^  J_COLOR_SPACE jpeg_color_space; \/* colorspace of JPEG image *\/$/;"	m	struct:jpeg_decompress_struct
+jpeg_common_fields	include/jpeglib.h	/^  jpeg_common_fields;		\/* Fields common to both master struct types *\/$/;"	m	struct:jpeg_common_struct
+jpeg_common_fields	include/jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_compress_struct *\/$/;"	m	struct:jpeg_decompress_struct
+jpeg_common_fields	include/jpeglib.h	/^  jpeg_common_fields;		\/* Fields shared with jpeg_decompress_struct *\/$/;"	m	struct:jpeg_compress_struct
+jpeg_common_fields	include/jpeglib.h	241;"	d
+jpeg_common_struct	include/jpeglib.h	/^struct jpeg_common_struct {$/;"	s
+jpeg_comp_master	include/jpeglib.h	/^struct jpeg_comp_master { long dummy; };$/;"	s
+jpeg_component_info	include/jpeglib.h	/^} jpeg_component_info;$/;"	t	typeref:struct:__anon9
+jpeg_compress_struct	include/jpeglib.h	/^struct jpeg_compress_struct {$/;"	s
+jpeg_consume_input	include/jpeglib.h	868;"	d
+jpeg_copy_critical_parameters	include/jpeglib.h	874;"	d
+jpeg_create_compress	include/jpeglib.h	894;"	d
+jpeg_create_decompress	include/jpeglib.h	897;"	d
+jpeg_d_coef_controller	include/jpeglib.h	/^struct jpeg_d_coef_controller { long dummy; };$/;"	s
+jpeg_d_main_controller	include/jpeglib.h	/^struct jpeg_d_main_controller { long dummy; };$/;"	s
+jpeg_d_post_controller	include/jpeglib.h	/^struct jpeg_d_post_controller { long dummy; };$/;"	s
+jpeg_decomp_master	include/jpeglib.h	/^struct jpeg_decomp_master { long dummy; };$/;"	s
+jpeg_decompress_struct	include/jpeglib.h	/^struct jpeg_decompress_struct {$/;"	s
+jpeg_default_colorspace	include/jpeglib.h	841;"	d
+jpeg_destination_mgr	include/jpeglib.h	/^struct jpeg_destination_mgr {$/;"	s
+jpeg_destroy	include/jpeglib.h	878;"	d
+jpeg_destroy_compress	include/jpeglib.h	835;"	d
+jpeg_destroy_decompress	include/jpeglib.h	836;"	d
+jpeg_downsampler	include/jpeglib.h	/^struct jpeg_downsampler { long dummy; };$/;"	s
+jpeg_enc_yv12	jpg/savejpeg.c	/^static int jpeg_enc_yv12(unsigned char* buffer, int width, int height, int quality, FILE* outfile)$/;"	f	file:
+jpeg_enc_yv12	jpg/savejpeg_bak.c	/^static int jpeg_enc_yv12(unsigned char* buffer, int width, int height, int quality, FILE* outfile)$/;"	f	file:
+jpeg_entropy_decoder	include/jpeglib.h	/^struct jpeg_entropy_decoder { long dummy; };$/;"	s
+jpeg_entropy_encoder	include/jpeglib.h	/^struct jpeg_entropy_encoder { long dummy; };$/;"	s
+jpeg_error_mgr	include/jpeglib.h	/^struct jpeg_error_mgr {$/;"	s
+jpeg_finish_compress	include/jpeglib.h	852;"	d
+jpeg_finish_decompress	include/jpeglib.h	861;"	d
+jpeg_finish_output	include/jpeglib.h	865;"	d
+jpeg_forward_dct	include/jpeglib.h	/^struct jpeg_forward_dct { long dummy; };$/;"	s
+jpeg_has_multiple_scans	include/jpeglib.h	863;"	d
+jpeg_input_complete	include/jpeglib.h	866;"	d
+jpeg_input_controller	include/jpeglib.h	/^struct jpeg_input_controller { long dummy; };$/;"	s
+jpeg_inverse_dct	include/jpeglib.h	/^struct jpeg_inverse_dct { long dummy; };$/;"	s
+jpeg_marker_reader	include/jpeglib.h	/^struct jpeg_marker_reader { long dummy; };$/;"	s
+jpeg_marker_struct	include/jpeglib.h	/^struct jpeg_marker_struct {$/;"	s
+jpeg_marker_writer	include/jpeglib.h	/^struct jpeg_marker_writer { long dummy; };$/;"	s
+jpeg_memory_mgr	include/jpeglib.h	/^struct jpeg_memory_mgr {$/;"	s
+jpeg_message_table	include/jpeglib.h	/^  const char * const * jpeg_message_table; \/* Library errors *\/$/;"	m	struct:jpeg_error_mgr
+jpeg_new_colormap	include/jpeglib.h	867;"	d
+jpeg_progress_mgr	include/jpeglib.h	/^struct jpeg_progress_mgr {$/;"	s
+jpeg_quality_scaling	include/jpeglib.h	845;"	d
+jpeg_read_coefficients	include/jpeglib.h	872;"	d
+jpeg_read_header	include/jpeglib.h	858;"	d
+jpeg_read_raw_data	include/jpeglib.h	862;"	d
+jpeg_read_scanlines	include/jpeglib.h	860;"	d
+jpeg_resync_to_restart	include/jpeglib.h	879;"	d
+jpeg_save_markers	include/jpeglib.h	870;"	d
+jpeg_saved_marker_ptr	include/jpeglib.h	/^typedef struct jpeg_marker_struct FAR * jpeg_saved_marker_ptr;$/;"	t	typeref:struct:FAR
+jpeg_scan_info	include/jpeglib.h	/^} jpeg_scan_info;$/;"	t	typeref:struct:__anon10
+jpeg_set_colorspace	include/jpeglib.h	840;"	d
+jpeg_set_defaults	include/jpeglib.h	839;"	d
+jpeg_set_linear_quality	include/jpeglib.h	843;"	d
+jpeg_set_marker_processor	include/jpeglib.h	871;"	d
+jpeg_set_quality	include/jpeglib.h	842;"	d
+jpeg_simple_progression	include/jpeglib.h	846;"	d
+jpeg_source_mgr	include/jpeglib.h	/^struct jpeg_source_mgr {$/;"	s
+jpeg_start_compress	include/jpeglib.h	850;"	d
+jpeg_start_decompress	include/jpeglib.h	859;"	d
+jpeg_start_output	include/jpeglib.h	864;"	d
+jpeg_std_error	include/jpeglib.h	832;"	d
+jpeg_stdio_dest	include/jpeglib.h	837;"	d
+jpeg_stdio_src	include/jpeglib.h	838;"	d
+jpeg_suppress_tables	include/jpeglib.h	847;"	d
+jpeg_upsampler	include/jpeglib.h	/^struct jpeg_upsampler { long dummy; };$/;"	s
+jpeg_write_coefficients	include/jpeglib.h	873;"	d
+jpeg_write_m_byte	include/jpeglib.h	856;"	d
+jpeg_write_m_header	include/jpeglib.h	855;"	d
+jpeg_write_marker	include/jpeglib.h	854;"	d
+jpeg_write_raw_data	include/jpeglib.h	853;"	d
+jpeg_write_scanlines	include/jpeglib.h	851;"	d
+jpeg_write_tables	include/jpeglib.h	857;"	d
+jvirt_barray_control	include/jpeglib.h	/^struct jvirt_barray_control { long dummy; };$/;"	s
+jvirt_barray_ptr	include/jpeglib.h	/^typedef struct jvirt_barray_control * jvirt_barray_ptr;$/;"	t	typeref:struct:jvirt_barray_control
+jvirt_sarray_control	include/jpeglib.h	/^struct jvirt_sarray_control { long dummy; };$/;"	s
+jvirt_sarray_ptr	include/jpeglib.h	/^typedef struct jvirt_sarray_control * jvirt_sarray_ptr;$/;"	t	typeref:struct:jvirt_sarray_control
+jz4740_alloc_frame	ipu/jz47_soc_mem.c	/^void *jz4740_alloc_frame (int align, int size)$/;"	f
+jz4740_free_devmem	ipu/jz47_soc_mem.c	/^void jz4740_free_devmem () \/\/ calling by libxvid$/;"	f
+jz4755_memset	ipu/jz47_soc_mem.c	/^int jz4755_memset(unsigned int vaddr ,int size)$/;"	f
+jz47_alloc_memdev	ipu/jz47_soc_mem.c	/^static void jz47_alloc_memdev ()$/;"	f	file:
+jz47_calc_ipu_outsize_and_position	ipu/test_ipu.c	/^static int jz47_calc_ipu_outsize_and_position (int x, int y, int w, int h)$/;"	f	file:
+jz47_calc_resize_para	ipu/jz47_soc_rsize.c	/^int jz47_calc_resize_para ()$/;"	f
+jz47_config_ipu_input_para	ipu/test_ipu.c	/^static void jz47_config_ipu_input_para (unsigned char *y, unsigned char *u, unsigned char *v) {$/;"	f	file:
+jz47_config_ipu_input_para	ipu/test_ipu.c	/^static void jz47_config_ipu_input_para (unsigned char *y, unsigned char *u, unsigned char *v)$/;"	f	file:
+jz47_config_ipu_output_para	ipu/test_ipu.c	/^static void  jz47_config_ipu_output_para ()$/;"	f	file:
+jz47_config_ipu_resize_para	ipu/test_ipu.c	/^static void jz47_config_ipu_resize_para ()$/;"	f	file:
+jz47_config_run_ipu	ipu/test_ipu.c	/^static int  jz47_config_run_ipu ()$/;"	f	file:
+jz47_config_stop_ipu	ipu/test_ipu.c	/^static int jz47_config_stop_ipu () {$/;"	f	file:
+jz47_config_stop_ipu	ipu/test_ipu.c	/^static int jz47_config_stop_ipu ()$/;"	f	file:
+jz47_cpu_type	ipu/test_ipu.c	/^int jz47_cpu_type = CPU_TYPE;$/;"	v
+jz47_dump_ipu_regs	ipu/test_ipu.c	/^static int jz47_dump_ipu_regs(int num)$/;"	f	file:
+jz47_exit_memalloc	ipu/jz47_soc_mem.c	/^void jz47_exit_memalloc (void *p)$/;"	f
+jz47_free_alloc_mem	ipu/jz47_soc_mem.c	/^void jz47_free_alloc_mem()$/;"	f
+jz47_get_output_panel_info	ipu/test_ipu.c	/^static int jz47_get_output_panel_info (void) \/* USER MODE *\/$/;"	f	file:
+jz47_ipu_input_mem_ptr	ipu/test_ipu.c	/^unsigned char *jz47_ipu_input_mem_ptr = NULL;$/;"	v
+jz47_ipu_module	ipu/test_ipu.c	/^struct JZ47_IPU_MOD jz47_ipu_module = {$/;"	v	typeref:struct:JZ47_IPU_MOD
+jz47_ipu_module_init	ipu/test_ipu.c	/^int jz47_ipu_module_init = 0;$/;"	v
+jz47_ipu_output_mem_ptr	ipu/test_ipu.c	/^unsigned char *jz47_ipu_output_mem_ptr = NULL;$/;"	v
+jz47_memdev	ipu/jz47_soc_mem.c	/^} jz47_memdev[MEM_ALLOC_DEV_NUM];$/;"	v	typeref:struct:JZ47_MEM_DEV
+jz47_put_image_with_ipu	ipu/test_ipu.c	/^int jz47_put_image_with_ipu (unsigned char *y, unsigned char *u, unsigned char *v, int img_width, int img_height)$/;"	f
+jz_jpeg	main.c	/^void *jz_jpeg = NULL;$/;"	v
+jz_sensor_desc	include/jz_cim.h	/^struct jz_sensor_desc$/;"	s
+jz_sensor_ops	include/jz_cim.h	/^struct jz_sensor_ops$/;"	s
+jz_sensor_platform_data	include/jz_cim.h	/^struct jz_sensor_platform_data {$/;"	s
+jzipu_config	ipu/jz4750_ipu.h	/^struct jzipu_config {$/;"	s
+last_addon_message	include/jpeglib.h	/^  int last_addon_message;	\/* code for last string in addon table *\/$/;"	m	struct:jpeg_error_mgr
+last_col_width	include/jpeglib.h	/^  int last_col_width;		\/* # of non-dummy blocks across in last MCU *\/$/;"	m	struct:__anon9
+last_jpeg_message	include/jpeglib.h	/^  int last_jpeg_message;    \/* Table contains strings 0..last_jpeg_message *\/$/;"	m	struct:jpeg_error_mgr
+last_row_height	include/jpeglib.h	/^  int last_row_height;		\/* # of non-dummy blocks down in last MCU *\/$/;"	m	struct:__anon9
+lcdc_sel	ipu/jz4750_ipu.h	/^			lcdc_sel:1, \/* output data destination$/;"	m	struct:jzipu_config::__anon20
+length	cim/video.c	/^	size_t	length;$/;"	m	struct:buffer	file:
+list	include/jz_cim.h	/^	struct list_head	list;$/;"	m	struct:jz_sensor_desc	typeref:struct:jz_sensor_desc::list_head
+long_options	main.c	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+m	ipu/jz47_iputype.h	/^  int n, m;$/;"	m	struct:Ratio_n2m
+macroblock	ipu/yuv_decode.c	/^struct macroblock {$/;"	s	file:
+main	include/jpeglib.h	/^  struct jpeg_c_main_controller * main;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_main_controller
+main	include/jpeglib.h	/^  struct jpeg_d_main_controller * main;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_main_controller
+main	ipu/test_ipu.c	/^int main() {$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+mainloop	cim/video.c	/^static void mainloop(void)$/;"	f	file:
+marker	include/jpeglib.h	/^  UINT8 marker;			\/* marker code: JPEG_COM, or JPEG_APP0+n *\/$/;"	m	struct:jpeg_marker_struct
+marker	include/jpeglib.h	/^  struct jpeg_marker_reader * marker;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_marker_reader
+marker	include/jpeglib.h	/^  struct jpeg_marker_writer * marker;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_marker_writer
+marker_list	include/jpeglib.h	/^  jpeg_saved_marker_ptr marker_list; \/* Head of list of saved markers *\/$/;"	m	struct:jpeg_decompress_struct
+master	include/jpeglib.h	/^  struct jpeg_comp_master * master;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_comp_master
+master	include/jpeglib.h	/^  struct jpeg_decomp_master * master;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_decomp_master
+max_alloc_chunk	include/jpeglib.h	/^  long max_alloc_chunk;$/;"	m	struct:jpeg_memory_mgr
+max_h_samp_factor	include/jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_compress_struct
+max_h_samp_factor	include/jpeglib.h	/^  int max_h_samp_factor;	\/* largest h_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct
+max_memory_to_use	include/jpeglib.h	/^  long max_memory_to_use;$/;"	m	struct:jpeg_memory_mgr
+max_v_samp_factor	include/jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_compress_struct
+max_v_samp_factor	include/jpeglib.h	/^  int max_v_samp_factor;	\/* largest v_samp_factor *\/$/;"	m	struct:jpeg_decompress_struct
+mb	include/preview_display.h	/^		mb	: 1,	\/\/macro block for yuv420$/;"	m	struct:display_info
+mclk	include/jz_cim.h	/^	unsigned int		mclk;		\/* master clock *\/$/;"	m	struct:jz_sensor_desc
+mem_addr	ipu/jz4750_ipu.h	/^		__u8	*mem_addr;$/;"	m	struct:jzipu_config::__anon23
+mem_init	ipu/jz47_soc_mem.c	/^static int memdev_count = 0, mem_init = 0;$/;"	v	file:
+memdev_count	ipu/jz47_soc_mem.c	/^static int memdev_count = 0, mem_init = 0;$/;"	v	file:
+min_DCT_scaled_size	include/jpeglib.h	/^  int min_DCT_scaled_size;	\/* smallest DCT_scaled_size of any component *\/$/;"	m	struct:jpeg_decompress_struct
+mmapfd	ipu/jz47_soc_mem.c	/^int mmapfd = 0;$/;"	v
+mmapfd	ipu/test_ipu.c	/^static int mmapfd = 0;$/;"	v	file:
+msg_code	include/jpeglib.h	/^  int msg_code;$/;"	m	struct:jpeg_error_mgr
+msg_parm	include/jpeglib.h	/^  } msg_parm;$/;"	m	struct:jpeg_error_mgr	typeref:union:jpeg_error_mgr::__anon14
+n	ipu/jz47_iputype.h	/^  int n, m;$/;"	m	struct:Ratio_n2m
+n_buffers	cim/video.c	/^static unsigned int	n_buffers	= 0;$/;"	v	file:
+n_bytes	include/preview_display.h	/^	__u32 n_bytes;$/;"	m	struct:display_info
+name	include/jz_cim.h	/^	char 			name[32];$/;"	m	struct:jz_sensor_desc
+name	ipu/jz47_soc_mem.c	/^  char *name;$/;"	m	struct:IMEM_INFO	file:
+need_config_inputpara	ipu/jz47_iputype.h	/^  int need_config_inputpara; \/\/ ipu need re-configure the input parameter registers$/;"	m	struct:JZ47_IPU_MOD
+need_config_outputpara	ipu/jz47_iputype.h	/^  int need_config_outputpara; \/\/ ipu need re-configure the output parameter registers$/;"	m	struct:JZ47_IPU_MOD
+need_config_resize	ipu/jz47_iputype.h	/^  int need_config_resize; \/\/ ipu need re-configure the resize registers$/;"	m	struct:JZ47_IPU_MOD
+next	include/jpeglib.h	/^  jpeg_saved_marker_ptr next;	\/* next in list, or NULL *\/$/;"	m	struct:jpeg_marker_struct
+next_input_byte	include/jpeglib.h	/^  const JOCTET * next_input_byte; \/* => next byte to read from buffer *\/$/;"	m	struct:jpeg_source_mgr
+next_output_byte	include/jpeglib.h	/^  JOCTET * next_output_byte;	\/* => next byte to write in buffer *\/$/;"	m	struct:jpeg_destination_mgr
+next_scanline	include/jpeglib.h	/^  JDIMENSION next_scanline;	\/* 0 .. image_height-1  *\/$/;"	m	struct:jpeg_compress_struct
+no_dma	include/jz_cim.h	/^	int 			no_dma;		\/* 1: PIO mode, 0: DMA mode, always 0 right now *\/$/;"	m	struct:jz_sensor_desc
+num_components	include/jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_compress_struct
+num_components	include/jpeglib.h	/^  int num_components;		\/* # of color components in JPEG image *\/$/;"	m	struct:jpeg_decompress_struct
+num_scans	include/jpeglib.h	/^  int num_scans;		\/* # of entries in scan_info array *\/$/;"	m	struct:jpeg_compress_struct
+num_warnings	include/jpeglib.h	/^  long num_warnings;		\/* number of corrupt-data warnings *\/$/;"	m	struct:jpeg_error_mgr
+offset	ipu/jz4750_ipu.h	/^		__u8	offset;$/;"	m	struct:jzipu_config::__anon21
+only_y	include/preview_display.h	/^	__u32	only_y	: 1,	\/\/only Y(ingnore UV)$/;"	m	struct:display_info
+open_console	ipu/test_ipu.c	/^static void open_console() {$/;"	f	file:
+open_device	cim/video.c	/^int open_device(const char *dev_name)$/;"	f
+ops	include/jz_cim.h	/^	int ops;$/;"	m	struct:cim_reg_info
+ops	include/jz_cim.h	/^	struct jz_sensor_ops *ops;$/;"	m	struct:jz_sensor_desc	typeref:struct:jz_sensor_desc::jz_sensor_ops
+ops	include/preview_display.h	/^	enum options ops;$/;"	m	struct:display_info	typeref:enum:display_info::options
+ops	main.c	/^enum options ops = OPS_PREVIEW;$/;"	v	typeref:enum:options
+optimize_coding	include/jpeglib.h	/^  boolean optimize_coding;	\/* TRUE=optimize entropy encoding parms *\/$/;"	m	struct:jpeg_compress_struct
+options	include/preview_display.h	/^enum options {$/;"	g
+optstring	main.c	/^static char optstring[] = "PCSTVit:w:h:x:y:W:H:sf:pb:z:I:k:Mvl:";$/;"	v	file:
+original_length	include/jpeglib.h	/^  unsigned int original_length;	\/* # bytes of data in the file *\/$/;"	m	struct:jpeg_marker_struct
+original_vt	ipu/test_ipu.c	/^static int original_vt = -1;$/;"	v	file:
+outH	ipu/jz47_iputype.h	/^   int outW, outH, Wsel, Hsel;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+outW	ipu/jz47_iputype.h	/^   int outW, outH, Wsel, Hsel;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+out_color_components	include/jpeglib.h	/^  int out_color_components;	\/* # of color components in out_color_space *\/$/;"	m	struct:jpeg_decompress_struct
+out_color_space	include/jpeglib.h	/^  J_COLOR_SPACE out_color_space; \/* colorspace for output *\/$/;"	m	struct:jpeg_decompress_struct
+out_h	ipu/jz47_iputype.h	/^  int out_x, out_y, out_w, out_h;   \/\/ require the output position and w,h by user$/;"	m	struct:JZ47_IPU_MOD
+out_panel	ipu/jz47_iputype.h	/^  } out_panel;$/;"	m	struct:JZ47_IPU_MOD	typeref:struct:JZ47_IPU_MOD::IPU_output_panel
+out_w	ipu/jz47_iputype.h	/^  int out_x, out_y, out_w, out_h;   \/\/ require the output position and w,h by user$/;"	m	struct:JZ47_IPU_MOD
+out_x	ipu/jz47_iputype.h	/^  int out_x, out_y, out_w, out_h;   \/\/ require the output position and w,h by user$/;"	m	struct:JZ47_IPU_MOD
+out_y	ipu/jz47_iputype.h	/^  int out_x, out_y, out_w, out_h;   \/\/ require the output position and w,h by user$/;"	m	struct:JZ47_IPU_MOD
+output	ipu/jz4750_ipu.h	/^	} output;$/;"	m	struct:jzipu_config	typeref:struct:jzipu_config::__anon23
+output_components	include/jpeglib.h	/^  int output_components;	\/* # of color components returned *\/$/;"	m	struct:jpeg_decompress_struct
+output_gamma	include/jpeglib.h	/^  double output_gamma;		\/* image gamma wanted in output *\/$/;"	m	struct:jpeg_decompress_struct
+output_height	include/jpeglib.h	/^  JDIMENSION output_height;	\/* scaled image height *\/$/;"	m	struct:jpeg_decompress_struct
+output_iMCU_row	include/jpeglib.h	/^  JDIMENSION output_iMCU_row;	\/* Number of iMCU rows read *\/$/;"	m	struct:jpeg_decompress_struct
+output_mem_ptr_phy	ipu/test_ipu.c	/^unsigned int output_mem_ptr_phy = 0;$/;"	v
+output_mode	ipu/jz47_iputype.h	/^  int output_mode;  \/\/ output mode: 0 FrameBuf, 1: LCD (ipu through), 2: PAL TV, 3: NTSC TV, 8: memory$/;"	m	struct:JZ47_IPU_MOD
+output_phy	ipu/jz47_iputype.h	/^    unsigned int output_phy; \/\/ output physical addr$/;"	m	struct:JZ47_IPU_MOD::IPU_output_panel
+output_scan_number	include/jpeglib.h	/^  int output_scan_number;	\/* Nominal scan number being displayed *\/$/;"	m	struct:jpeg_decompress_struct
+output_scanline	include/jpeglib.h	/^  JDIMENSION output_scanline;	\/* 0 .. output_height-1  *\/$/;"	m	struct:jpeg_decompress_struct
+output_width	include/jpeglib.h	/^  JDIMENSION output_width;	\/* scaled image width *\/$/;"	m	struct:jpeg_decompress_struct
+padding	include/framebuffer.h	/^	int padding[2];$/;"	m	struct:fb_info
+padding	include/preview_display.h	/^	__u32 padding[2];$/;"	m	struct:display_info
+paddr	include/jz_cim.h	/^	unsigned int paddr;$/;"	m	struct:cim_buf_info
+paddr	ipu/jz47_soc_mem.c	/^  unsigned int paddr;$/;"	m	struct:JZ47_MEM_DEV	file:
+pass_counter	include/jpeglib.h	/^  long pass_counter;		\/* work units completed in this pass *\/$/;"	m	struct:jpeg_progress_mgr
+pass_limit	include/jpeglib.h	/^  long pass_limit;		\/* total number of work units in this pass *\/$/;"	m	struct:jpeg_progress_mgr
+pd_pin	include/jz_cim.h	/^	int			pd_pin;		\/* power down *\/$/;"	m	struct:jz_sensor_desc
+pd_pin	include/jz_cim.h	/^	int	pd_pin;		\/* power down *\/$/;"	m	struct:jz_sensor_platform_data
+planar	include/preview_display.h	/^		planar	: 1,	\/\/planar$/;"	m	struct:display_info
+polling_end_flag	ipu/jz4750_ipu_regops.h	210;"	d
+post	include/jpeglib.h	/^  struct jpeg_d_post_controller * post;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_d_post_controller
+power	ipu/jz47_soc_mem.c	/^  unsigned int power;$/;"	m	struct:IMEM_INFO	file:
+pre_h	include/jz_cim.h	/^	int pre_h;$/;"	m	struct:cim_scale
+pre_res	include/jz_cim.h	/^	struct resolution_info	pre_res;	\/* preview *\/$/;"	m	struct:jz_sensor_desc	typeref:struct:jz_sensor_desc::resolution_info
+pre_w	include/jz_cim.h	/^	int pre_w;	\/\/preview$/;"	m	struct:cim_scale
+prep	include/jpeglib.h	/^  struct jpeg_c_prep_controller * prep;$/;"	m	struct:jpeg_compress_struct	typeref:struct:jpeg_compress_struct::jpeg_c_prep_controller
+preview_display	cim/preview_display.c	/^void preview_display(__u8 *frame, struct display_info *display_info, struct fb_info *fb_info)$/;"	f
+preview_display_raw	raw/saveraw.c	/^int preview_display_raw(const char *filename, struct fb_info *fb)$/;"	f
+preview_save_raw	raw/saveraw.c	/^int preview_save_raw(char *filename, const __u8 *frame, struct display_info *display_info)$/;"	f
+preview_save_raw_file	raw/saveraw.c	/^int preview_save_raw_file(FILE *file, const __u8 *frame, struct display_info *display_info)$/;"	f
+print_opt_help	main.c	64;"	d	file:
+process_frame	cim/process.c	/^void process_frame(void *handle, const char *filename, void *frame, struct display_info *dis, int ops)$/;"	f
+process_framebuf	cim/video.c	/^int process_framebuf(void)$/;"	f
+progressive_mode	include/jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if SOFn specifies progressive mode *\/$/;"	m	struct:jpeg_decompress_struct
+progressive_mode	include/jpeglib.h	/^  boolean progressive_mode;	\/* TRUE if scan script uses progressive mode *\/$/;"	m	struct:jpeg_compress_struct
+ql_sel	include/jpeg.h	/^	int ql_sel;$/;"	m	struct:__anon5
+quant_table	include/jpeglib.h	/^  JQUANT_TBL * quant_table;$/;"	m	struct:__anon9
+quant_tbl_no	include/jpeglib.h	/^  int quant_tbl_no;		\/* quantization table selector (0..3) *\/$/;"	m	struct:__anon9
+quant_tbl_ptrs	include/jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_compress_struct
+quant_tbl_ptrs	include/jpeglib.h	/^  JQUANT_TBL * quant_tbl_ptrs[NUM_QUANT_TBLS];$/;"	m	struct:jpeg_decompress_struct
+quantize_colors	include/jpeglib.h	/^  boolean quantize_colors;	\/* TRUE=colormapped output wanted *\/$/;"	m	struct:jpeg_decompress_struct
+quantval	include/jpeglib.h	/^  UINT16 quantval[DCTSIZE2];	\/* quantization step for each coefficient *\/$/;"	m	struct:__anon7
+query_cap	cim/video.c	/^static void query_cap(struct v4l2_capability *cap)$/;"	f	file:
+ratio	ipu/jz47_iputype.h	/^  float ratio;$/;"	m	struct:Ratio_n2m
+raw_counter	main.c	/^int raw_counter = 0;$/;"	v
+raw_data_in	include/jpeglib.h	/^  boolean raw_data_in;		\/* TRUE=caller supplies downsampled data *\/$/;"	m	struct:jpeg_compress_struct
+raw_data_out	include/jpeglib.h	/^  boolean raw_data_out;		\/* TRUE=downsampled data wanted *\/$/;"	m	struct:jpeg_decompress_struct
+raw_limit	main.c	/^int raw_limit = 3;$/;"	v
+read_frame	cim/video.c	/^static int read_frame(void )$/;"	f	file:
+read_raw_file	raw/saveraw.c	/^static int read_raw_file(FILE *file, __u8 **frm, struct display_info *dis)$/;"	f	file:
+rec_outbuf_height	include/jpeglib.h	/^  int rec_outbuf_height;	\/* min recommended height of scanline buffer *\/$/;"	m	struct:jpeg_decompress_struct
+reconfig	ipu/jz4750_ipu.h	/^		__u16	reconfig; \/* 1: need reconfig input registers, else not *\/$/;"	m	struct:jzipu_config::__anon21
+reconfig	ipu/jz4750_ipu.h	/^		int	reconfig;$/;"	m	struct:jzipu_config::__anon22
+reconfig	ipu/jz4750_ipu.h	/^		int	reconfig;$/;"	m	struct:jzipu_config::__anon23
+red	include/pixel.h	/^	__u8 red;$/;"	m	struct:bpp24_pixel
+red	include/pixel.h	/^	__u8 red;$/;"	m	struct:bpp32_pixel
+red	include/pixel.h	/^	unsigned short red:5;$/;"	m	struct:bpp16_pixel
+red	include/savebmp.h	/^	__u8 red;$/;"	m	struct:bmp_bgr
+reg	include/jz_cim.h	/^	unsigned int reg;$/;"	m	struct:cim_reg_info
+reserved	include/preview_display.h	/^		reserved: 26;$/;"	m	struct:display_info
+reserved	ipu/jz4750_ipu.h	/^		__u16	reserved;$/;"	m	struct:jzipu_config::__anon21
+reserved1	ipu/jz4750_ipu.h	/^			reserved1:1,$/;"	m	struct:jzipu_config::__anon20
+reserved2	ipu/jz4750_ipu.h	/^			reserved2:14;$/;"	m	struct:jzipu_config::__anon20
+reset_ipu	ipu/jz4750_ipu_regops.h	156;"	d
+reset_ipu	ipu/jz4750_ipu_regops.h	163;"	d
+resize	ipu/jz4750_ipu.h	/^	} resize;$/;"	m	struct:jzipu_config	typeref:struct:jzipu_config::__anon22
+resize_lut_calc	ipu/jz47_soc_rsize.c	/^int resize_lut_calc (int srcN, int dstM, int upScale, unsigned int coef[], float fixed_point_coef)$/;"	f
+resize_out_cal	ipu/jz47_soc_rsize.c	/^int resize_out_cal (int insize, int outsize, int srcN, int dstM, int upScale)$/;"	f
+resize_para	ipu/jz47_iputype.h	/^ } resize_para;$/;"	m	struct:JZ47_IPU_MOD	typeref:struct:JZ47_IPU_MOD::IPU_rsize_para
+resolution_info	include/jz_cim.h	/^struct resolution_info {$/;"	s
+resolution_table	include/jz_cim.h	/^	struct resolution_info 	*resolution_table;$/;"	m	struct:jz_sensor_desc	typeref:struct:jz_sensor_desc::resolution_info
+restart_in_rows	include/jpeglib.h	/^  int restart_in_rows;		\/* if > 0, MCU rows per restart interval *\/$/;"	m	struct:jpeg_compress_struct
+restart_interval	include/jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart interval, or 0 for no restart *\/$/;"	m	struct:jpeg_decompress_struct
+restart_interval	include/jpeglib.h	/^  unsigned int restart_interval; \/* MCUs per restart, or 0 for no restart *\/$/;"	m	struct:jpeg_compress_struct
+rgb565_normalization	cim/convert.c	/^void rgb565_normalization(__u32 fmt, struct rgb565_sample *in_samp,$/;"	f
+rgb565_sample	include/pixel.h	/^struct rgb565_sample {$/;"	s
+rgb888_fmt	ipu/jz4750_ipu.h	/^		__u8	rgb888_fmt; \/* 0: low 24bits, 1: high 24bits *\/$/;"	m	struct:jzipu_config::__anon23
+rgb888_normalization	cim/convert.c	/^void rgb888_normalization(__u32 fmt, struct rgb888_sample *in_samp,$/;"	f
+rgb888_sample	include/pixel.h	/^struct rgb888_sample {$/;"	s
+rgb_offset	ipu/jz4750_ipu.h	/^		__u8	rgb_offset;$/;"	m	struct:jzipu_config::__anon23
+rst_pin	include/jz_cim.h	/^	int			rst_pin;	\/* reset *\/$/;"	m	struct:jz_sensor_desc
+rst_pin	include/jz_cim.h	/^	int	rst_pin;	\/* reset *\/$/;"	m	struct:jz_sensor_platform_data
+run_ipu	ipu/jz4750_ipu_regops.h	125;"	d
+s	include/jpeglib.h	/^    char s[JMSG_STR_PARM_MAX];$/;"	m	union:jpeg_error_mgr::__anon14
+sample_range_limit	include/jpeglib.h	/^  JSAMPLE * sample_range_limit; \/* table for fast range-limiting *\/$/;"	m	struct:jpeg_decompress_struct
+save_bgr_to_bmp	bmp/savebmp.c	/^int save_bgr_to_bmp(__u8 *buf, struct display_info *dis, FILE *fp)$/;"	f
+save_jpeg_userptr	jpg/savejpeg.c	/^int save_jpeg_userptr = 0;$/;"	v
+saw_Adobe_marker	include/jpeglib.h	/^  boolean saw_Adobe_marker;	\/* TRUE iff an Adobe APP14 marker was found *\/$/;"	m	struct:jpeg_decompress_struct
+saw_JFIF_marker	include/jpeglib.h	/^  boolean saw_JFIF_marker;	\/* TRUE iff a JFIF APP0 marker was found *\/$/;"	m	struct:jpeg_decompress_struct
+scale_denom	include/jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct
+scale_num	include/jpeglib.h	/^  unsigned int scale_num, scale_denom; \/* fraction by which to scale image *\/$/;"	m	struct:jpeg_decompress_struct
+scale_outH	ipu/test_ipu.c	/^int scale_outH=-1;$/;"	v
+scale_outW	ipu/test_ipu.c	/^int scale_outW=-1;$/;"	v
+scan_info	include/jpeglib.h	/^  const jpeg_scan_info * scan_info; \/* script for multi-scan file, or NULL *\/$/;"	m	struct:jpeg_compress_struct
+script_space	include/jpeglib.h	/^  jpeg_scan_info * script_space; \/* workspace for jpeg_simple_progression *\/$/;"	m	struct:jpeg_compress_struct
+script_space_size	include/jpeglib.h	/^  int script_space_size;$/;"	m	struct:jpeg_compress_struct
+sensor_id	include/jz_cim.h	/^	int 			sensor_id;	\/* for multi-sensor. Useless right now. *\/$/;"	m	struct:jz_sensor_desc
+sensor_init	include/jz_cim.h	/^	int (*sensor_init)(struct jz_sensor_desc *desc);$/;"	m	struct:jz_sensor_ops
+sensor_mode_t	include/jz_cim.h	/^enum sensor_mode_t {$/;"	g
+sensor_probe	include/jz_cim.h	/^	int (*sensor_probe)(struct jz_sensor_desc *desc);$/;"	m	struct:jz_sensor_ops
+sensor_set_function	include/jz_cim.h	/^	int (*sensor_set_function)(struct jz_sensor_desc *desc, enum sensor_mode_t mode);$/;"	m	struct:jz_sensor_ops
+sensor_set_parameter	include/jz_cim.h	/^	int (*sensor_set_parameter)(struct jz_sensor_desc *desc, int cmd, int mode, int arg);$/;"	m	struct:jz_sensor_ops
+sensor_set_power	include/jz_cim.h	/^	int (*sensor_set_power)(struct jz_sensor_desc *desc, int state);$/;"	m	struct:jz_sensor_ops
+sensor_set_resolution	include/jz_cim.h	/^	int (*sensor_set_resolution)(struct jz_sensor_desc *desc, struct resolution_info *res);$/;"	m	struct:jz_sensor_ops
+sent_table	include/jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon7
+sent_table	include/jpeglib.h	/^  boolean sent_table;		\/* TRUE when table has been output *\/$/;"	m	struct:__anon8
+set_format	cim/video.c	/^unsigned int set_format(struct display_info *disp)$/;"	f
+sig_int	main.c	/^void sig_int(int signo)$/;"	f
+size	include/jz_cim.h	/^	unsigned int size;$/;"	m	struct:cim_buf_info
+smem_len	include/framebuffer.h	/^	int smem_len;$/;"	m	struct:fb_info
+smem_len	ipu/test_ipu.c	/^static int smem_len = 0;$/;"	v	file:
+smoothing_factor	include/jpeglib.h	/^  int smoothing_factor;		\/* 1..100, or 0 for no input smoothing *\/$/;"	m	struct:jpeg_compress_struct
+soft_bts	include/jpeg.h	/^	uint8_t *soft_bts;$/;"	m	struct:__anon5
+soft_buf	include/jpeg.h	/^	uint8_t *soft_buf;$/;"	m	struct:__anon5
+spage_map	ipu/jz4750_ipu.h	/^			spage_map:1,$/;"	m	struct:jzipu_config::__anon20
+spkg_sel	ipu/jz4750_ipu.h	/^			spkg_sel:1, \/* 0: seperated YUV frame$/;"	m	struct:jzipu_config::__anon20
+src	include/jpeglib.h	/^  struct jpeg_source_mgr * src;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_source_mgr
+srcH	ipu/jz47_iputype.h	/^  int srcW, srcH;$/;"	m	struct:JZ47_IPU_MOD
+srcW	ipu/jz47_iputype.h	/^  int srcW, srcH;$/;"	m	struct:JZ47_IPU_MOD
+start	cim/video.c	/^	void *	start;$/;"	m	struct:buffer	file:
+start_capturing	cim/video.c	/^void start_capturing(void)$/;"	f
+starttime	main.c	/^unsigned long long starttime,endtime;$/;"	v
+stop_capturing	cim/video.c	/^void stop_capturing(void)$/;"	f
+stop_ipu	ipu/jz4750_ipu_regops.h	122;"	d
+str	cim/cim_fmt.c	/^	char *str;$/;"	m	struct:str_fmt	file:
+str_fmt	cim/cim_fmt.c	/^static struct str_fmt str_fmt[] = {$/;"	v	typeref:struct:str_fmt	file:
+str_fmt	cim/cim_fmt.c	/^struct str_fmt {$/;"	s	file:
+str_to_fmt	cim/cim_fmt.c	/^__u32 str_to_fmt(char *str) {$/;"	f
+stride	ipu/jz4750_ipu.h	/^		__u32	stride;$/;"	m	struct:jzipu_config::__anon23
+sw_reset_ipu	ipu/jz4750_ipu_regops.h	186;"	d
+table_nr	include/jz_cim.h	/^	int			table_nr;$/;"	m	struct:jz_sensor_desc
+tolower	misc.c	/^int tolower(int c)$/;"	f
+total_iMCU_rows	include/jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows in image *\/$/;"	m	struct:jpeg_decompress_struct
+total_iMCU_rows	include/jpeglib.h	/^  JDIMENSION total_iMCU_rows;	\/* # of iMCU rows to be input to coef ctlr *\/$/;"	m	struct:jpeg_compress_struct
+total_passes	include/jpeglib.h	/^  int total_passes;		\/* total number of passes expected *\/$/;"	m	struct:jpeg_progress_mgr
+totalsize	ipu/jz47_soc_mem.c	/^  unsigned int totalsize;$/;"	m	struct:JZ47_MEM_DEV	file:
+trace_level	include/jpeglib.h	/^  int trace_level;		\/* max msg_level that will be displayed *\/$/;"	m	struct:jpeg_error_mgr
+tran_addr_for_aux	ipu/jz47_soc_mem.c	/^unsigned int tran_addr_for_aux (unsigned int vaddr)$/;"	f
+two_pass_quantize	include/jpeglib.h	/^  boolean two_pass_quantize;	\/* TRUE=use two-pass color quantization *\/$/;"	m	struct:jpeg_decompress_struct
+u_addr	ipu/jz4750_ipu.h	/^		__u8	*u_addr;$/;"	m	struct:jzipu_config::__anon21
+u_buff	ipu/test_ipu.c	/^static unsigned char *u_buff = NULL;$/;"	v	file:
+u_stride	ipu/jz4750_ipu.h	/^		__u16	u_stride;$/;"	m	struct:jzipu_config::__anon21
+ubuf	include/preview_display.h	/^	__u8 *ubuf;$/;"	m	struct:display_info
+uint32_t	include/jpeg.h	5;"	d
+uint8_t	include/jpeg.h	4;"	d
+uninit_device	cim/video.c	/^void uninit_device(void)$/;"	f
+unread_marker	include/jpeglib.h	/^  int unread_marker;$/;"	m	struct:jpeg_decompress_struct
+upsample	include/jpeglib.h	/^  struct jpeg_upsampler * upsample;$/;"	m	struct:jpeg_decompress_struct	typeref:struct:jpeg_decompress_struct::jpeg_upsampler
+usage	main.c	/^void usage() {$/;"	f
+usectime	main.c	/^long long usectime(void)$/;"	f
+usedsize	ipu/jz47_soc_mem.c	/^  unsigned int usedsize;$/;"	m	struct:JZ47_MEM_DEV	file:
+userptr	include/preview_display.h	/^		userptr	: 1,	\/\/use internal TLB (using user space virtual memory instead of kernel space physical memory)$/;"	m	struct:display_info
+v_addr	ipu/jz4750_ipu.h	/^		__u8	*v_addr;$/;"	m	struct:jzipu_config::__anon21
+v_buff	ipu/test_ipu.c	/^static unsigned char *v_buff = NULL;$/;"	v	file:
+v_samp_factor	include/jpeglib.h	/^  int v_samp_factor;		\/* vertical sampling factor (1..4) *\/$/;"	m	struct:__anon9
+v_scale	ipu/jz4750_ipu.h	/^			v_scale:1, \/* vertical scale. 1: up scaling, 0: down scaling *\/$/;"	m	struct:jzipu_config::__anon20
+v_stride	ipu/jz4750_ipu.h	/^		__u16	v_stride;$/;"	m	struct:jzipu_config::__anon21
+vaddr	include/jz_cim.h	/^	unsigned int vaddr;$/;"	m	struct:cim_buf_info
+vaddr	ipu/jz47_soc_mem.c	/^  unsigned int vaddr;$/;"	m	struct:IMEM_INFO	file:
+vaddr	ipu/jz47_soc_mem.c	/^  unsigned int vaddr;$/;"	m	struct:JZ47_MEM_DEV	file:
+val	include/jz_cim.h	/^	unsigned int val;$/;"	m	struct:cim_reg_info
+vbuf	include/preview_display.h	/^	__u8 *vbuf;$/;"	m	struct:display_info
+video_dev_name	main.c	/^static char video_dev_name[16];$/;"	v	file:
+void	include/jconfig.h	8;"	d
+vrsz_en	ipu/jz4750_ipu.h	/^			vrsz_en:1, \/* vertical resize. 1: enable, 0: disable *\/$/;"	m	struct:jzipu_config::__anon20
+vs	include/jz_cim.h	/^	int vs;		\/\/vertical scale$/;"	m	struct:cim_scale
+w	ipu/jz47_iputype.h	/^    int w, h, bytes_per_line;$/;"	m	struct:JZ47_IPU_MOD::IPU_output_panel
+wait_frames	include/jz_cim.h	/^	unsigned int		wait_frames;$/;"	m	struct:jz_sensor_desc
+width	include/jpeg.h	/^	int width;$/;"	m	struct:__anon5
+width	include/jz_cim.h	/^	unsigned int 	width;$/;"	m	struct:resolution_info
+width	include/preview_display.h	/^	__u32 width;$/;"	m	struct:display_info
+width	ipu/jz4750_ipu.h	/^		__u16	width;$/;"	m	struct:jzipu_config::__anon21
+width	ipu/jz4750_ipu.h	/^		__u16	width;$/;"	m	struct:jzipu_config::__anon23
+width_in_blocks	include/jpeglib.h	/^  JDIMENSION width_in_blocks;$/;"	m	struct:__anon9
+width_lut_coef	ipu/jz4750_ipu.h	/^		unsigned int	width_lut_coef [IPU_LUT_LEN];$/;"	m	struct:jzipu_config::__anon22
+width_lut_coef	ipu/jz47_iputype.h	/^   unsigned int  width_lut_coef [IPU_LUT_LEN];$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+width_lut_size	ipu/jz4750_ipu.h	/^		int	width_lut_size;$/;"	m	struct:jzipu_config::__anon22
+width_lut_size	ipu/jz47_iputype.h	/^   int width_lut_size, height_lut_size;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+width_resize_enable	ipu/jz47_iputype.h	/^   int width_up, height_up, width_resize_enable, height_resize_enable;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+width_up	ipu/jz47_iputype.h	/^   int width_up, height_up, width_resize_enable, height_resize_enable;$/;"	m	struct:JZ47_IPU_MOD::IPU_rsize_para
+window	include/preview_display.h	/^		window	: 1,	\/\/window cut or not$/;"	m	struct:display_info
+window_cut	lcd/framebuffer.c	/^void window_cut(struct display_info *dis, struct fb_info *fb)$/;"	f
+write_Adobe_marker	include/jpeglib.h	/^  boolean write_Adobe_marker;	\/* should an Adobe marker be written? *\/$/;"	m	struct:jpeg_compress_struct
+write_JFIF_header	include/jpeglib.h	/^  boolean write_JFIF_header;	\/* should a JFIF marker be written? *\/$/;"	m	struct:jpeg_compress_struct
+xioctl	cim/video.c	/^static int xioctl(int fd, int request, void *arg)$/;"	f	file:
+xoff	include/framebuffer.h	/^	__u32 xoff;$/;"	m	struct:fb_info
+xoff	include/preview_display.h	/^	__u32 xoff;$/;"	m	struct:display_info
+xpos	ipu/test_ipu.c	/^int xpos, ypos;$/;"	v
+xres	include/framebuffer.h	/^	int xres;$/;"	m	struct:fb_info
+yCbCr422_normalization	cim/convert.c	/^void yCbCr422_normalization(__u32 fmt, struct yuv422_sample *yuv422_samp_in,$/;"	f
+yCbCr422_pack_to_planar	cim/convert.c	/^void yCbCr422_pack_to_planar(__u8 *y, __u8 *cb, __u8 *cr, const __u8 *src, struct display_info *dis)$/;"	f
+yCbCr444_normalization	cim/convert.c	/^void yCbCr444_normalization(__u32 fmt, struct yuv444_sample *yuv444_samp_in,$/;"	f
+yCbCr444_pack_to_planar	cim/convert.c	/^void yCbCr444_pack_to_planar(__u8 *y, __u8 *cb, __u8 *cr,$/;"	f
+y_addr	ipu/jz4750_ipu.h	/^		__u8	*y_addr;$/;"	m	struct:jzipu_config::__anon21
+y_buff	ipu/test_ipu.c	/^static unsigned char *y_buff = NULL;$/;"	v	file:
+y_stride	ipu/jz4750_ipu.h	/^		__u16	y_stride;$/;"	m	struct:jzipu_config::__anon21
+ybuf	include/preview_display.h	/^	__u8 *ybuf;$/;"	m	struct:display_info
+ycbcr422_planar_to_jpeg	jpg/savejpeg.c	/^static int ycbcr422_planar_to_jpeg(__u8 *y, __u8 *cb, __u8 *cr,$/;"	f	file:
+ycbcr422_planar_to_jpeg	jpg/savejpeg_bak.c	/^static int ycbcr422_planar_to_jpeg(__u8 *y, __u8 *cb, __u8 *cr,$/;"	f	file:
+yoff	include/framebuffer.h	/^	__u32 yoff;$/;"	m	struct:fb_info
+yoff	include/preview_display.h	/^	__u32 yoff;$/;"	m	struct:display_info
+ypos	ipu/test_ipu.c	/^int xpos, ypos;$/;"	v
+yres	include/framebuffer.h	/^	int yres;$/;"	m	struct:fb_info
+yuv420_mb_to_jpeg	jpg/savejpeg_bak.c	/^static int yuv420_mb_to_jpeg(__u8 *data, int image_width, int image_height, FILE *fp, int quality)$/;"	f	file:
+yuv420_mb_to_planar	jpg/savejpeg_bak.c	/^static void yuv420_mb_to_planar(__u8 *data, int width, int height, __u8 *ybuf, __u8 *ubuf, __u8 *vbuf)$/;"	f	file:
+yuv420_sep_to_jpeg	jpg/savejpeg.c	/^int yuv420_sep_to_jpeg(__u8 *data, int mb, int image_width, int image_height, FILE *fp, int quality)$/;"	f
+yuv420_sep_to_jpeg	jpg/savejpeg_bak.c	/^int yuv420_sep_to_jpeg(__u8 *data, int mb, int image_width, int image_height, FILE *fp, int quality)$/;"	f
+yuv422_packed_to_jpeg	jpg/savejpeg.c	/^int yuv422_packed_to_jpeg(void *handle, const __u8 *frm, FILE *fp, struct display_info *dis, int quality)$/;"	f
+yuv422_packed_to_jpeg	jpg/savejpeg_bak.c	/^int yuv422_packed_to_jpeg(const __u8 *frm, FILE *fp, struct display_info *dis, int quality)$/;"	f
+yuv422_sample	include/pixel.h	/^struct yuv422_sample {$/;"	s
+yuv422_sep_to_jpeg	jpg/savejpeg.c	/^int yuv422_sep_to_jpeg(__u8 *data, int image_width, int image_height, FILE *fp, int quality)$/;"	f
+yuv422_sep_to_jpeg	jpg/savejpeg_bak.c	/^int yuv422_sep_to_jpeg(__u8 *data, int image_width, int image_height, FILE *fp, int quality)$/;"	f
+yuv422_to_jpeg_soft	jpg/savejpeg.c	/^int yuv422_to_jpeg_soft (void * handle, const __u8 *frm, FILE *fp, struct display_info *dis, int quality)$/;"	f
+yuv444_packed_to_jpeg	jpg/savejpeg.c	/^int yuv444_packed_to_jpeg(__u8 *data, FILE *fp, struct display_info *dis, int quality)$/;"	f
+yuv444_packed_to_jpeg	jpg/savejpeg_bak.c	/^int yuv444_packed_to_jpeg(__u8 *data, FILE *fp, struct display_info *dis, int quality)$/;"	f
+yuv444_planar_to_yuv422_planar	jpg/savejpeg_bak.c	/^static void yuv444_planar_to_yuv422_planar(__u8 *yin, __u8 *uin, __u8 *vin,$/;"	f	file:
+yuv444_sample	include/pixel.h	/^struct yuv444_sample {$/;"	s
+yuv444_sep_to_jpeg	jpg/savejpeg.c	/^int yuv444_sep_to_jpeg(__u8 *data, int image_width, int image_height, FILE *fp, int quality)$/;"	f
+yuv444_sep_to_jpeg	jpg/savejpeg_bak.c	/^int yuv444_sep_to_jpeg(__u8 *data, int image_width, int image_height, FILE *fp, int quality)$/;"	f
+yuv_decode	ipu/yuv_decode.c	/^int yuv_decode(unsigned char *y_buff, unsigned char *u_buff, unsigned char *v_buff)$/;"	f
+yuv_pkg_out_offset	ipu/jz4750_ipu.h	/^		__u8	yuv_pkg_out_offset;$/;"	m	struct:jzipu_config::__anon23
